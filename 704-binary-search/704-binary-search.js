@@ -6,7 +6,7 @@
 var search = function(nums, target) {
       let lo = 0, hi = nums.length-1;
     while (lo < hi) {
-        let mid = lo + Math.floor((hi-lo)/2);
+        let mid = Math.floor((hi + lo) / 2);
         if (target > nums[mid]) {
             lo = mid + 1;
         } else {
