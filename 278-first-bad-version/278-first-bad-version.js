@@ -23,7 +23,6 @@ var solution = function(isBadVersion) {
         let answer = null;
         let start = Math.floor(n / 2);
     const loop = (start) => {
-        console.log(start)
         if (isBadVersion(start) === false) {
             if (isBadVersion(start + 1) === true ) {
                 return answer = start + 1;
