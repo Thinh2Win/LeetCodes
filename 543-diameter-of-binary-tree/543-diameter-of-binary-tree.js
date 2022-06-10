@@ -16,12 +16,11 @@ var diameterOfBinaryTree = function(root) {
         if (!currentNode) {
             return 0;
         }
-        let leftDepth = loop(currentNode.left);
-        let rightDepth = loop(currentNode.right);
-        max = Math.max(max, leftDepth + rightDepth);
-        return Math.max(leftDepth, rightDepth) + 1;
+        let left = loop(currentNode.left);
+        let right = loop(currentNode.right);
+        max = Math.max(max, left + right);
+        return Math.max(left, right) + 1;
     }
     loop(root);
-   return max;
-    
+    return max;
 };
