@@ -32,6 +32,6 @@ const quickSort = (array) => {
     }
 }
 var kClosest = function(points, k) {
-   points.sort((a,b) => (a[0]*a[0] + a[1]*a[1]) - (b[0]*b[0] + b[1]*b[1]))
+   points.sort((a,b) => (Math.pow(a[0], 2) + Math.pow(a[1], 2)) - (Math.pow(b[0], 2) + Math.pow(b[1], 2)))
     return points.slice(0,k);
 };
