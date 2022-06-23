@@ -15,7 +15,7 @@ var evalRPN = function(tokens) {
             stack.push(tokens[i]);            
         } else {
             let num2 = parseInt(stack.pop()); 
-            let num1 = parseInt(stack.pop()); 
+            let num1 = parseInt(stack.pop());  
             let newNum = operators[tokens[i]](num1, num2); 
             stack.push(newNum); 
         }
