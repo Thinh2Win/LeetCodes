@@ -5,15 +5,20 @@
  */
 var minSubArrayLen = function(target, nums) {
     let left = 0;
+    let right = 1;
+    let sum = nums[0];
     let size = Infinity; 
-    let sum = 0;
-    for (let i = 0; i < nums.length; i++) {
-        sum += nums[i];
-        while (sum >= target) {
-            size = Math.min(size, i - left + 1);
-            sum -= nums[left];
-            left++;
+    while (left < nums.length - 1) {
+        if (right > nums.length) {
+            break;
         }
+        while (sum >= target) {
+            size = Math.min(size, right - left);
+            sum -= nums[left];
+            left++; 
+        } 
+            sum += nums[right];
+            right++;
     }
     return size === Infinity ? 0 : size;
 };
