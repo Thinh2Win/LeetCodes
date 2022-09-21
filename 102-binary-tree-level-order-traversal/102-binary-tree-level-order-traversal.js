@@ -11,22 +11,21 @@
  * @return {number[][]}
  */
 var levelOrder = function(root) {
-    if(!root) return [];
-    let result = [];
-    let queue = [root];
-    while(queue.length) {
-        let len = queue.length;
-        result.push(queue.map(node => node.val)); 
-        while(len--) {
-            let node = queue.shift();
-            if (node.left) {
-                queue.push(node.left); 
-            } 
-            if (node.right) {
-                queue.push(node.right); 
-            }
-        }
+    if (!root) {
+        return [];
     }
-    return result; 
-
+    let answer = [];
+    let q = [root];
+    while (q.length) {
+        let length = q.length;
+        let container = [];
+        for (let i = 0; i < length; i++) {
+            let currentNode = q.shift();
+            container.push(currentNode.val);
+            currentNode.left ? q.push(currentNode.left) : null;
+            currentNode.right ? q.push(currentNode.right) : null;
+        }
+        answer.push(container);
+    }
+    return answer;
 };
