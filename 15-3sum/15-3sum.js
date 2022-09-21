@@ -3,28 +3,32 @@
  * @return {number[][]}
  */
 var threeSum = function(nums) {
-    nums.sort((a,b) => a - b);
-    let mySet = new Set();
-    for (let i = 0; i < nums.length; i += 1) {
-        
-        let left = i + 1;
-        let right = nums.length - 1;
-        let target = 0 - nums[i];
-        while (left < right) {
-            let sum = nums[left] + nums[right];
-            if (sum < target) {
-                left += 1;
-            } else if (sum > target) {
-                right -= 1;
+    nums.sort((a, b) => a - b);
+    let answer = [];
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] === nums[i - 1]) {
+            continue; 
+        }
+        let start = i + 1;
+        let end = nums.length - 1;
+        while (start < end) {
+            let sum = nums[i] + nums[start] + nums[end];
+            if (sum > 0) {
+                end -= 1;
+            } else if (sum < 0) {
+                start += 1;
             } else {
-                mySet.add(JSON.stringify([nums[i], nums[left], nums[right]].sort()));
-                right -= 1;
-                left += 1;
+                answer.push([nums[i], nums[start], nums[end]]);
+                start += 1;
+                end -= 1;
+              while (nums[start] === nums[start - 1]) {
+                start += 1;
+              }
+              while (nums[end] === nums[end + 1]) {
+                end -= 1;
+              }
             }
         }
     }
-    let answer = [...mySet].map(array => {
-    return JSON.parse(array);
-    });
-    return answer;   
+    return answer;
 };
