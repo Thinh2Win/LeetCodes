@@ -4,49 +4,32 @@
  * @return {boolean}
  */
 var canFinish = function(numCourses, prerequisites) {
-// create map 
-    let map = new Map();
-    let q = new Set();
-    let visited = new Set();
-    let answer = true;
-    for (let [course, req] of prerequisites) {
-        if (map.has(course)) {
-            let reqs = map.get(course);
-            reqs.push(req);
-            map.set(course, reqs); 
-        } else {
-            map.set(course, [req]);
-        }
+    let adjList = [];
+    for (let i = 0; i < numCourses; i++) {
+        adjList.push([]);
     }
-// once map is created 
-   const loop = (node) => {
-       q.add(node);
-       let neighbors = map.get(node);
-       
-       if (neighbors) {
-           for (let neighbor of neighbors) {
-               if (visited.has(neighbor)) {
-                   continue;
-               }
-               
-               if (q.has(neighbor)) {
-                   return true;
-               }
-               
-               if (loop(neighbor)) {
-                   return true;
-               }
-           }
-       }
-       q.delete(node);
-       visited.add(node);
-       return false;
-   }
-   
-   for (const[course, req] of map) {
-       if (loop(course)) {
-           return false;
-       }
-   }
-    return true;
+    prerequisites.forEach(preReq => {
+        adjList[preReq[0]].push(preReq[1]);
+    });
+    
+    let visited = new Array(numCourses).fill(0);
+    let hasCycle = false; 
+    const DFS = (currentNode) => {
+        if (visited[currentNode] === 1) {
+            hasCycle = true;
+            return; 
+        }
+        if (visited[currentNode] === 2) {
+            return;
+        }
+        visited[currentNode] = 1; 
+        adjList[currentNode].forEach(edge => {
+            DFS(edge);
+        });
+        visited[currentNode] = 2;
+    }
+    for (let j = 0; j < adjList.length; j++) {
+        DFS(j);
+    }
+    return hasCycle ? false : true;
 };
