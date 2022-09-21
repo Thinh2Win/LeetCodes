@@ -13,7 +13,6 @@ var lengthOfLongestSubstring = function(s) {
             map[s[end]] += 1;
         }
         while (map[s[end]] >= 2) {
-            max = Math.max(max, end - start - 1);
             map[s[start]] -= 1; 
             if (map[s[start]] === 0) {
                 delete(map[s[start]]);
