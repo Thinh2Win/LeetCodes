@@ -2,23 +2,31 @@
  * @param {string[]} tokens
  * @return {number}
  */
-var evalRPN = function(tokens) {
-    let stack = []; 
-    const operators = {
-        '+': function(x, y) {return x + y},
-        '-': function(x, y) {return x - y},
-        '/': function(x, y) {return Math.trunc(x / y)},
-        '*': function(x, y) {return x * y},
+const doOperation = (num1, num2, operation) => {
+    switch (operation) {
+        case '+': 
+        return num1 + num2;
+        break;
+        case '-': 
+        return num1 - num2;
+        break;
+        case '*': 
+        return num1 * num2;
+        break;
+        default: 
+        return Math.trunc(num1 / num2);
     }
-    for (let i =0; i < tokens.length; i++) {
-        if (!operators[tokens[i]]) {
-            stack.push(tokens[i]);            
+}
+var evalRPN = function(tokens) {
+    let stack = [];
+    for (let i = 0; i < tokens.length; i++) {
+        if (Number.isInteger(parseInt(tokens[i]))) {
+            stack.push(parseInt(tokens[i]));
         } else {
-            let num2 = parseInt(stack.pop()); 
-            let num1 = parseInt(stack.pop());  
-            let newNum = operators[tokens[i]](num1, num2); 
-            stack.push(newNum); 
+            let num2 = stack.pop();
+            let num1 = stack.pop();
+            stack.push(doOperation(num1, num2, tokens[i]));
         }
     }
-    return stack[0];    
+    return stack[0];
 };
