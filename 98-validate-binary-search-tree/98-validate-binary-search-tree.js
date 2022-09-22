@@ -13,17 +13,14 @@
 var isValidBST = function(root) {
     let validTree = true; 
     const DFS = (currentNode, min, max) => {
-        if (currentNode === null) {
-            return;
-        }
-        if (currentNode.val >= max || currentNode.val <= min) {
+        console.log(currentNode.val, min, currentNode.val < min)
+        if (currentNode.val <= min || currentNode.val >= max ) {
             validTree = false;
             return;
         }
         currentNode.left ? DFS(currentNode.left, min, currentNode.val) : null;
         currentNode.right ? DFS(currentNode.right, currentNode.val, max) : null;
     }
-    DFS(root.left, -Infinity, root.val);
-    DFS(root.right, root.val, Infinity);
+    DFS(root, -Infinity, Infinity);
     return validTree; 
 };
