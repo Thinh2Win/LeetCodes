@@ -4,14 +4,13 @@
  * @return {number}
  */
 var coinChange = function(coins, amount) {
-    let combos = new Array(amount + 1).fill(Infinity);
-    combos[0] = 0;    
+    let ways = new Array(amount + 1).fill(Infinity);
+    ways[0] = 0;
     coins.forEach(coin => {
-        for (let i = 1; i <= amount; i++) {
-            if (i >= coin) {
-                combos[i] = Math.min(combos[i], 1 + combos[i - coin]);
-            }
+        for(let i = coin; i < ways.length; i++) {
+            ways[i] = Math.min(ways[i], 1 + ways[i - coin]);
         }
     });
-    return combos[amount] === Infinity ? -1 : combos[amount];
+    return ways[amount] === Infinity ? -1 : ways[amount];
+
 };
