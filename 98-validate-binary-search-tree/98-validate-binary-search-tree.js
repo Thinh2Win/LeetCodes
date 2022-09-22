@@ -11,16 +11,11 @@
  * @return {boolean}
  */
 var isValidBST = function(root) {
-    let validTree = true; 
     const DFS = (currentNode, min, max) => {
-        console.log(currentNode.val, min, currentNode.val < min)
-        if (currentNode.val <= min || currentNode.val >= max ) {
-            validTree = false;
-            return;
-        }
-        currentNode.left ? DFS(currentNode.left, min, currentNode.val) : null;
-        currentNode.right ? DFS(currentNode.right, currentNode.val, max) : null;
+        if (currentNode === null) return true;
+        if (currentNode.val <= min || currentNode.val >= max) return false;
+        const leftValid = DFS(currentNode.left, min, currentNode.val);
+        return leftValid && DFS(currentNode.right, currentNode.val, max);
     }
-    DFS(root, -Infinity, Infinity);
-    return validTree; 
+    return DFS(root, -Infinity, Infinity);
 };
