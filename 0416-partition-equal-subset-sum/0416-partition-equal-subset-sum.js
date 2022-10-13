@@ -3,26 +3,28 @@
  * @return {boolean}
  */
 var canPartition = function(nums) {
-      let sum = 0;
-    nums.forEach(num => sum += num);
-  sum /= 2;
-  let memo = new Map();
-  return dfs(nums, sum, 0, memo);
-};
-
-const dfs = (nums, sum, idx, memo) => {
-  if (sum === 0) {
-    return true;
-  }
-  if (sum < 0 || idx === nums.length) {
-    return false;
-  }
-  if (memo.has(`${idx}-${sum}`)) {
-    return memo.get(`${idx}-${sum}`);
-  }
-  // either include current element or skip
-  let res =
-    dfs(nums, sum - nums[idx], idx + 1, memo) || dfs(nums, sum, idx + 1, memo);
-  memo.set(`${idx}-${sum}`, res);
-  return res;
+    let target = 0;
+    nums.forEach(num => target += num);
+    if (target % 2 === 1) return false; 
+    target /= 2;
+    let memo = new Map();
+    let foundTarget = false;
+    const DFS = (array, sum, idx) => {
+        if (sum === 0) {
+            foundTarget = true;
+            return;
+        }
+        if (foundTarget || idx === array.length - 1) {
+            return;
+        }
+        if (memo.has(`${sum}-${idx}`) || sum < 0) {
+            return;
+        }
+        
+        DFS(array, sum - array[idx], idx + 1);
+        DFS(array, sum, idx + 1) ;
+        memo.set(`${sum}-${idx}`, true);
+    }
+    DFS(nums, target, 0);
+    return foundTarget;
 };
