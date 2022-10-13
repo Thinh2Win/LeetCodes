@@ -9,10 +9,12 @@ var canPartition = function(nums) {
     target /= 2;
     let combos = new Set();
     combos.add(0);
-    nums.forEach(num => {
-        [...combos].forEach(number => {
-            combos.add(number + num);
-        });
-    });
-    return combos.has(target);
+    for (let i = 0; i < nums.length; i++) {
+        let set = [...combos];
+        for (let j = 0; j < combos.size; j++) {
+            if (combos.has(target)) return true
+            combos.add(nums[i] + set[j]);
+        }
+    }
+    return false;
 };
