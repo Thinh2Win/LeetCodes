@@ -17,13 +17,13 @@ var canPartition = function(nums) {
         if (foundTarget || idx === array.length - 1) {
             return;
         }
-        if (memo.has(`${sum}-${idx}`) || sum < 0) {
+        if (memo.has(`${sum},${idx}`) || sum < 0) {
             return;
         }
         
         DFS(array, sum - array[idx], idx + 1);
         DFS(array, sum, idx + 1) ;
-        memo.set(`${sum}-${idx}`, true);
+        memo.set(`${sum},${idx}`, true);
     }
     DFS(nums, target, 0);
     return foundTarget;
