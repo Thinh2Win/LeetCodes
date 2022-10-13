@@ -3,10 +3,8 @@
  * @return {boolean}
  */
 var canPartition = function(nums) {
-      let sum = nums.reduce((acc, cur) => acc + cur);
-  if (sum % 2 === 1) {
-    return false;
-  }
+      let sum = 0;
+    nums.forEach(num => sum += num);
   sum /= 2;
   let memo = new Map();
   return dfs(nums, sum, 0, memo);
