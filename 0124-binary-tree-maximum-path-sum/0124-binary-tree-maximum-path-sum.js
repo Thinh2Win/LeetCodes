@@ -18,7 +18,6 @@ var maxPathSum = function(root) {
         maxSum = Math.max(maxSum, leftMax + currentNode.val, rightMax + currentNode.val, leftMax + rightMax + currentNode.val, currentNode.val);
         return Math.max(leftMax + currentNode.val, rightMax + currentNode.val, currentNode.val);
     }
-    // maxSum = Math.max(DFS(root), maxSum);
-    DFS(root)
+    maxSum = Math.max(DFS(root), maxSum);
     return maxSum;
 };
