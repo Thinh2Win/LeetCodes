@@ -4,18 +4,11 @@
  */
 map = {
     1: "1",
-    2: "11",
-    3: "21",
-    4: "1211",
-    5: "111221",
-    6: "312211",
-    7: "13112221",
-    8: "1113213211"
 }
 
 var countAndSay = function(n) {
     if (map[n]) return map[n];
-    let current = 9;
+    let current = 2;
     while(!map[n]) {
         map[current] = convert(map[current - 1]);
         current += 1;
