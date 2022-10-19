@@ -7,13 +7,11 @@ var topKFrequent = function(words, k) {
     let map = {};
     words.forEach(word => map[word] ? map[word] += 1 : map[word] = 1);
     let mostFrequent = Object.keys(map).sort((a, b) => {
-        let count = map[b] - map[a];
-        if (count === 0) {
-            return a.localeCompare(b)
+        if (map[b] - map[a] === 0) {
+            return a.localeCompare(b);
         } else {
-            return count;
+            return map[b] - map[a];
         }
-        
-    }); 
+    });
     return mostFrequent.slice(0, k);
 }; 
