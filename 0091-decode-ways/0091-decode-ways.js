@@ -7,18 +7,14 @@ var numDecodings = function(s) {
     let cache = [];
     const DFS = (index) => {
         let result = 0;
-        if (index == s.length) {
+        if (index === s.length) {
             return 1;
         }
-        if (cache[index] != null) {
+        if (cache[index] !== undefined) {
             return cache[index];
         }
-        if (s[index] > 0) {
-          result += DFS(index + 1);  
-        } 
-        if (s[index] != 0 && s[index+1] != null && s[index]+s[index+1] < 27) {
-          result += DFS(index + 2);  
-        } 
+        result += s[index] > 0 ? DFS(index + 1) : 0;
+        result += +s[index] !== 0 && s[index+1] !== undefined && s[index]+s[index+1] < 27 ? DFS(index + 2) : 0;
         cache[index] = result;
         return result;
     }
