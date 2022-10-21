@@ -13,14 +13,14 @@ var numRollsToTarget = function(n, k, target) {
         if (diceRolled === n || diff <= 0) {
             return 0;
         }
-         if ( memo[`${diceRolled}-${diff}`] !== undefined) {
-            return  memo[`${diceRolled}-${diff}`];
+         if ( memo[`${diceRolled},${diff}`] !== undefined) {
+            return  memo[`${diceRolled},${diff}`];
         }
         let result = 0, M = Math.pow(10, 9) + 7;
         for (let i = 1; i <= k; i++) {
             result = (result + DFS(diceRolled + 1, diff - i)) % M;
         }
-        memo[`${diceRolled}-${diff}`] = result;
+        memo[`${diceRolled},${diff}`] = result;
         return result;
     }
     return DFS(0, target);
