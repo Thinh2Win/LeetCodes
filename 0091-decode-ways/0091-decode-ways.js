@@ -4,7 +4,7 @@
  */
 var numDecodings = function(s) {
     if (s.length < 0 || s[0] === '0') return 0;
-    let cache = [];
+    let cache = {};
     const DFS = (index) => {
         let result = 0;
         if (index === s.length) {
