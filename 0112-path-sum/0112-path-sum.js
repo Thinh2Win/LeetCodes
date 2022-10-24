@@ -20,7 +20,6 @@ var hasPathSum = function(root, targetSum) {
             return;
         }
         currentSum += currentNode.val;
-        console.log(currentSum)
         if (!currentNode.left && !currentNode.right && currentSum === targetSum) {
             return hasTarget = true;
         }
