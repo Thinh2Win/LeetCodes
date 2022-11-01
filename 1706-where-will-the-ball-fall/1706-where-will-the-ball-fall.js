@@ -59,6 +59,5 @@ var findBall = function(grid) {
             DFS(row, col, col)
         }
     }
-    console.log(dp)
     return answer;
 };
