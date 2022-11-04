@@ -16,19 +16,22 @@ const isOneOff = (gene1, gene2) => {
 }
 
 var minMutation = function(start, end, bank) {
-    let min = Infinity;
+     let min = Infinity;
+   let memo = {};
     if (!bank.includes(end)) return -1;
     const DFS = (currentGene, remaining, lvl) => {
     if (isOneOff(currentGene, start)) {
         min = Math.min(min, lvl);
         return;
     }
-
+    let key = `${currentGene},${remaining},${lvl}`
+    if (key in memo) return 
     for (let i = 0; i < remaining.length; i++) {
         if (isOneOff(currentGene, remaining[i])) {
             DFS(remaining[i], remaining.filter(gene => gene !== remaining[i]), lvl + 1);
         }
     }
+    memo[key] = true;
 }
     DFS(end, bank.filter(gene => gene !== end), 1);
     return min === Infinity ? -1 : min;
