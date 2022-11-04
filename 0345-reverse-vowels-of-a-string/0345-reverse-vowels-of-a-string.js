@@ -17,22 +17,25 @@ const isVowel = (letter) => {
 }
 
 var reverseVowels = function(s) {
-    // iterate forward and put vowels in a stack
-    let stack = [];
-    let split = s.split('');
-    split.forEach(letter => {
-        if (isVowel(letter)) {
-            stack.push(letter);
+   // two pointers
+    // split string 
+    let word = s.split('');
+    let L = 0;
+    let R = word.length - 1;
+    // while loop that runs while left < right 
+    while (L < R) {
+        if (isVowel(word[L]) && isVowel(word[R])) {
+            [word[L], word[R]] = [word[R], word[L]];
+            L += 1;
+            R -= 1;
         }
-    });
-    // iterate forward, and if the letter is a vowel 
-    // we replace it with a letter from our stack
-    for (let i = 0; i < split.length; i++) {
-        if (isVowel(split[i])) {
-            let vowel = stack.pop();
-            split[i] = vowel;
+        if (!isVowel(word[L])) {
+            L += 1;
+        }
+        if (!isVowel(word[R])) {
+            R -= 1;
         }
     }
-    return split.join('');
-    // have a map to check if the letter is a vowel 
+    return word.join('');
+    
 };
