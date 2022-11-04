@@ -8,9 +8,6 @@
 const isOneOff = (gene1, gene2) => {
     let diff = 0;
     for (let i = 0; i < gene1.length; i++) {
-        if (diff > 1) {
-            return false;
-        }
         if (gene1[i] !== gene2[i]) {
             diff += 1;
         }
