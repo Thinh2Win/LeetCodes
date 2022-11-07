@@ -8,9 +8,9 @@ var numIslands = function(grid) {
     // increment counter 
     // return counter 
     let counter = 0;
-    const BFS = (coordinates) => {
-    let q = [coordinates];
-    grid[coordinates[0]][coordinates[1]] = 0;
+    const BFS = ([row, col]) => {
+    let q = [[row, col]];
+    grid[row][col] = 0;
     while (q.length) {
         let [row, col] = q.shift();
         if (row - 1 >= 0 && grid[row - 1][col] === '1') {
