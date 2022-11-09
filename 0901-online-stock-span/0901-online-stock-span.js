@@ -1,14 +1,12 @@
 
-var StockSpanner = function() {
-    this.container = [],
-    this.map = {}
-};
-
-/** 
- * @param {number} price
- * @return {number}
- */
-StockSpanner.prototype.next = function(price) {
+class StockSpanner {
+    
+    constructor () {
+        this.container = [],
+        this.map = {}
+    }
+    
+    next = (price) => {
         this.container.push(price);
         let counter = 1;
         if (this.container.length === 1) {
@@ -22,7 +20,14 @@ StockSpanner.prototype.next = function(price) {
         }
         this.map[this.container.length - 1] = counter;
         return counter;
+    };
 };
+
+/** 
+ * @param {number} price
+ * @return {number}
+ */
+
 
 /** 
  * Your StockSpanner object will be instantiated and called as such:
