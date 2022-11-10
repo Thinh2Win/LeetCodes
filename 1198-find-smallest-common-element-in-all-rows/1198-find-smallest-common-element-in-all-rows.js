@@ -15,9 +15,6 @@ var smallestCommonElement = function(mat) {
         let currentNum = mat[0][col];
         for (var row = 0; row < mat.length; row++) {
             if (maps[row][currentNum] === undefined) {
-                if (mat[row].at(-1) < currentNum) {
-                    return -1;
-                }
                 if (col === mat[0].length - 1) {
                     return -1;
                 }
