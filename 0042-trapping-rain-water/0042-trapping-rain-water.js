@@ -3,25 +3,21 @@
  * @return {number}
  */
 var trap = function(height) {
-    let trappedWater = 0;
     let L = 0; 
     let R = height.length - 1;
-    let leftMax = -Infinity; 
-    let rightMax = -Infinity;
+    let lMax = height[L];
+    let rMax = height[R];
+    let water = 0;
     while (L < R) {
-        leftMax = Math.max(height[L], leftMax);
-        rightMax = Math.max(height[R], rightMax);
-        if (height[L] < height[R]) {
-            L += 1;
-        } else {
+        if (height[L] > height[R]) {
+            water += rMax - height[R];
             R -= 1;
-        }
-         if (height[L] < leftMax) {
-            trappedWater += leftMax - height[L];
-        }
-         if (height[R] < rightMax) {
-            trappedWater += rightMax - height[R];
+            rMax = Math.max(rMax, height[R]);
+        } else {
+            water += lMax - height[L];
+            L += 1;
+            lMax = Math.max(lMax, height[L]);
         }
     }
-    return trappedWater;
+    return water;
 };
