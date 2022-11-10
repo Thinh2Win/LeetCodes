@@ -4,14 +4,10 @@
  */
 var smallestCommonElement = function(mat) {
     let maps = [];
-    let max = -Infinity;
     for (let row = 0; row < mat.length; row++) {
         let map = {};
         for (let i = 0; i < mat[row].length; i++) {
             map[mat[row][i]] = true;
-            if (i === 0) {
-                max = Math.max(max, mat[row][0]);
-            }
         }
         maps.push(map);
     }
