@@ -13,7 +13,6 @@
  */
 var kthSmallest = function(root, k) {
     const DFS = (currentNode, container) => {
-        console.log(currentNode.val)
         if (currentNode.left && container.length !== k) {
             DFS(currentNode.left, container);
         }
