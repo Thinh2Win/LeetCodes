@@ -12,7 +12,6 @@ var removeDuplicates = function(nums) {
         if (currentNum !== nums[R]) {
             [nums[L], nums[R]] = [nums[R], nums[L]];
             currentNum = nums[L];
-            console.log(currentNum)
             L += 1;
         }
     }
