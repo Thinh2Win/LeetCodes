@@ -6,11 +6,7 @@ var removeDuplicateLetters = function(s) {
     let map = {};
     for (let i = 0; i < s.length; i++) {
         let letter = s[i];
-        if (map[letter] === undefined) {
-            map[letter] = 1;
-        } else {
-            map[letter] += 1;
-        }
+        map[letter] ? map[letter] += 1 : map[letter] = 1;
     }
     let stack = [s[0]];
     for (let j = 1; j < s.length; j++) {
