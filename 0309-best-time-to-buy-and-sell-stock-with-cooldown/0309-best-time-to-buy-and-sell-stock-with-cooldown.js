@@ -8,7 +8,6 @@ var maxProfit = function(prices) {
         if (idx >= prices.length) {
             return 0;
         }
-        let currStock = prices[idx];
         let key = `${idx},${boughtStock}`;
         if (key in memo) return memo[key]; 
         
