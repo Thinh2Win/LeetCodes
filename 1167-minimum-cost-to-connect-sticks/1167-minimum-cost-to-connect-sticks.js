@@ -3,7 +3,7 @@
  * @return {number}
  */
 var connectSticks = function(sticks) {
-    if (sticks.length <= 1) return 0
+     if (sticks.length <= 1) return 0;
     sticks.sort((a, b) => b - a);
     let total = 0;
     while (sticks.length) {
