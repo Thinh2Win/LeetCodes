@@ -3,17 +3,17 @@
  * @return {number}
  */
 var connectSticks = function(sticks) {
- let total = 0;
-    sticks.sort((a,b)=>a-b);
-    while ((sticks.length>1)) {    
-        let connect = sticks.shift() + sticks.shift()
-        for (let i=0;i<=sticks.length;i++) {
-            if (i==sticks.length || sticks[i] > connect) {
-                sticks.splice(i, 0, connect);
+    let total = 0;
+    sticks.sort((a, b) => a - b);
+    while ((sticks.length > 1)) {
+        let combined = sticks.shift() + sticks.shift();
+        for (let i = 0; i <= sticks.length; i++) {
+            if (i == sticks.length|| sticks[i] > combined) {
+                sticks.splice(i, 0, combined);
                 break;
             }
         }
-        total+=connect;
+        total += combined;
     }
     return total;
 };
