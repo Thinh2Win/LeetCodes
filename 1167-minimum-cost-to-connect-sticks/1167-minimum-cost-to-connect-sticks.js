@@ -7,9 +7,7 @@ var connectSticks = function(sticks) {
     sticks.sort((a, b) => a - b);
     let total = 0;
     while (sticks.length) {
-        const stick1 = sticks.shift();
-        const stick2 = sticks.shift();
-        const combined = stick1 + stick2;
+        const combined = sticks.shift() + sticks.shift();
         total += combined;
         if (sticks.length === 0) return total;
         let L = 0;
@@ -23,6 +21,6 @@ var connectSticks = function(sticks) {
             }
 
         }
-                    sticks.splice(L, 0, combined);
+        sticks.splice(L, 0, combined);
     }
 };
