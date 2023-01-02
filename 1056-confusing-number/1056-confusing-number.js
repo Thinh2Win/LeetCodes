@@ -24,7 +24,6 @@ var confusingNumber = function(n) {
             rotate.unshift(n[j]);
         }
     }
-    console.log(n, rotate)
     if (n === rotate.join('')) return false;
     return true;
 };
