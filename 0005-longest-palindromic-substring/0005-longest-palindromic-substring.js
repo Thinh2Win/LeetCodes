@@ -4,21 +4,20 @@
  */
 var longestPalindrome = function(s) {
     let string = '$' + s.split('').join('$') + '$';
-    let longest = -Infinity;
-    let answer = '';
+    let longest = [-Infinity, null];
     for (let i = 1; i < string.length; i++) {
         let L = i - 1;
         let R = i + 1;
-        let stringLength = 0;
-        while (string[L] === string[R] && string[L] !== undefined && string[R] !== undefined) {
-            stringLength += 2;
+        let length = 1;
+        while (string[L] === string[R] && string[L]) {
             L -= 1;
             R += 1;
+            length += 1;
         }
-        if (stringLength > longest) {
-            longest = stringLength;
-            answer = string.slice(L + 1, R - 1).split('$').join('');
+        if (length > longest[0]) {
+            longest[1] = string.substring(L + 1, R);
+            longest[0] = length;
         }
     }
-    return answer;
+    return longest[1].split('$').join('');
 };
