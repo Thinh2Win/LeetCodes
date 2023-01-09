@@ -20,9 +20,6 @@ var accountsMerge = function(accounts) {
         }
     });
     const DFS = (idx, set) => {
-        if (seen[idx]) {
-            return;
-        }
         accounts[idx].forEach(val => set.add(val));
         seen[idx] = true;
         for (let k = 0; k < adjList[idx].length; k++) {
