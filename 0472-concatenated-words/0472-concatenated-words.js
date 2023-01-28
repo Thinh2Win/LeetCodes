@@ -11,9 +11,7 @@ var findAllConcatenatedWordsInADict = function(words) {
             if (dict.has(prefix)) {
                 let suffix = word.slice(i + 1);
                 let result = DFS(suffix);
-                if (result) {
-                    return true;
-                }
+                if (result) return true;
             }
         }
         return false;
