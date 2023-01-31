@@ -4,22 +4,23 @@
  * @return {number}
  */
 var bestTeamScore = function(scores, ages) {
-      const n = ages.length;
-  const ageScorePair = new Array(n);
-  for (let i = 0; i < n; i++) {
-    ageScorePair[i] = [ages[i], scores[i]];
-  }
-  ageScorePair.sort((a, b) => a[0] === b[0] ? a[1] - b[1] : a[0] - b[0]);
-  const dp = new Array(n).fill(0);
-  let maxScore = 0;
-  for (let i = 0; i < n; i++) {
-    dp[i] = ageScorePair[i][1];
-    for (let j = 0; j < i; j++) {
-      if (ageScorePair[i][1] >= ageScorePair[j][1]) {
-        dp[i] = Math.max(dp[i], dp[j] + ageScorePair[i][1]);
-      }
+    let max = -Infinity;
+    let arr = [];
+    ages.forEach((age, idx) => {
+        arr.push([age, scores[idx]]);
+    });
+    arr.sort((a, b) => {
+        return a[0] === b[0] ? a[1] - b[1] : a[0] - b[0];
+    });
+    let dp = new Array(ages.length).fill(0);
+    for (let i = 0; i < ages.length; i++) {
+        dp[i] = arr[i][1];
+        for (let j = 0; j < i; j++) {
+            if (arr[i][1] >= arr[j][1]) {
+                dp[i] = Math.max(dp[i], dp[j] + arr[i][1]);
+            }
+        }
+        max = Math.max(dp[i], max);
     }
-    maxScore = Math.max(maxScore, dp[i]);
-  }
-  return maxScore;
+    return max;
 };
