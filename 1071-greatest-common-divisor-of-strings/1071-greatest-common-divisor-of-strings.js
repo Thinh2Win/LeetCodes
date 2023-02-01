@@ -4,7 +4,14 @@
  * @return {string}
  */
 var gcdOfStrings = function(str1, str2) {
-    let [shortest, longest] = [str1, str2].sort((a, b) => a.length - b.length);
+    let shortest, longest;
+    if (str1.length > str2.length) {
+        longest = str1;
+        shortest = str2;
+    } else {
+        longest = str2;
+        shortest = str1;
+    }
     let answer = '';
     for (let i = 0; i < shortest.length; i++) {
         let segment = shortest.slice(0, i + 1);
