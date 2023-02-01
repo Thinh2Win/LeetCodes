@@ -3,7 +3,6 @@
  * @return {number}
  */
 var pivotIndex = function(nums) {
-    let answer = -1;
     let total = nums.reduce((a, b) => a + b, 0);
     let L = 0;
     let R = total;
@@ -14,5 +13,5 @@ var pivotIndex = function(nums) {
         }
         L += nums[i];
     }
-    return answer;
+    return -1;
 };
