@@ -3,21 +3,19 @@
  * @return {string}
  */
 var longestPalindrome = function(s) {
-    let string = '$' + s.split('').join('$') + '$';
-    let longest = [-Infinity, null];
-    for (let i = 1; i < string.length; i++) {
+    let string = '-' + s.split('').join('-') + '-';
+    let answer = '';
+    for (let i = 0; i < string.length; i++) {
         let L = i - 1;
         let R = i + 1;
-        let length = 1;
-        while (string[L] === string[R] && string[L]) {
+        while (L >= 0 && string[L] === string[R]) {
             L -= 1;
             R += 1;
-            length += 1;
         }
-        if (length > longest[0]) {
-            longest[1] = string.substring(L + 1, R);
-            longest[0] = length;
+        let substring = string.slice(L + 1, R);
+        if (substring.length > answer.length) {
+            answer = substring;
         }
     }
-    return longest[1].split('$').join('');
+    return answer.split('-').join('');
 };
