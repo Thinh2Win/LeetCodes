@@ -9,9 +9,10 @@ var isAlienSorted = function(words, order) {
   for (let i = 1; i < words.length; i++) {
     let prev = words[i - 1];
     let curr = words[i];
+    if (curr === prev) continue;
     let shorterWord = prev.length < curr.length ? prev : curr;
     for (let j = 0; j < shorterWord.length; j++) {
-      if (map[prev[j]] < map[curr[j]] || curr === prev) break;
+      if (map[prev[j]] < map[curr[j]]) break;
       if (map[prev[j]] > map[curr[j]]) return false;
       if (shorterWord === curr && j === shorterWord.length - 1) return false;
     }
