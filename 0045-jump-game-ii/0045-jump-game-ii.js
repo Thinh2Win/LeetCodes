@@ -14,7 +14,7 @@ var jump = function(nums) {
                 continue;
             }
             let path = dp.slice(i + 1, nums[i] + i + 1);
-            dp[i] = Math.min(...path.map(x => x + 1));
+            dp[i] = Math.min(...path) + 1;
         }
     }
     return dp[0];
