@@ -2,17 +2,19 @@
  * @param {number[]} nums
  * @return {number}
  */
-var jump = function(array) {
-    let dp = new Array(array.length).fill(0);
-    for (let i = array.length - 2; i >= 0; i--) {
-        if (array[i] + i >= array.length - 1) {
+var jump = function(nums) {
+    let dp = [];
+    dp[nums.length - 1] = 0;
+    for (let i = nums.length - 2; i >= 0; i--) {
+        if (i + nums[i] >= nums.length - 1) {
             dp[i] = 1;
         } else {
-            let min = Infinity;
-            for (let j = i + 1; j <= i + array[i]; j++) {
-                min = Math.min(min, dp[j]);
+            if (nums[i] === 0) {
+                dp[i] = Infinity;
+                continue;
             }
-            dp[i] = min + 1;
+            let path = dp.slice(i + 1, nums[i] + i + 1);
+            dp[i] = Math.min(...path.map(x => x + 1));
         }
     }
     return dp[0];
