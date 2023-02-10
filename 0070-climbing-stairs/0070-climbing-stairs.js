@@ -3,21 +3,12 @@
  * @return {number}
  */
 var climbStairs = function(n) {
-    let memo = {};
-    const DFS = (diff) => {
-    if (diff === 0) {
-        return 1;
+    let map = {1: 1, 2: 2};
+    if (map[n]) return map[n];
+    let i = 3;
+    while (i <= n) {
+        map[i] = map[i - 1] + map[i - 2];
+        i += 1;
     }
-    if (diff < 0) {
-        return 0;
-    }
-    if (memo[diff] !== undefined) {
-        return memo[diff];
-    }
-    let left = DFS(diff - 1);
-    let right = DFS(diff - 2);
-    memo[diff] = left + right;
-    return memo[diff];
-}
-    return DFS(n);
+    return map[n];
 };
