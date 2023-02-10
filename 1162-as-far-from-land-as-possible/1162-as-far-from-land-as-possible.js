@@ -15,12 +15,12 @@ var maxDistance = function(grid) {
     let max = -Infinity;
     water.forEach(coordinate => {
        let [x1, y1] = coordinate;
-        let distances = [];
+        let min = Infinity;
         for (let i = 0; i < land.length; i++) {
             let [x2, y2] = land[i];
-            distances.push(Math.abs(x2 - x1) + Math.abs(y2 - y1));
+            min = Math.min(Math.abs(x2 - x1) + Math.abs(y2 - y1), min);
         }
-        max = Math.max(max, Math.min(...distances));
+        max = Math.max(max, min);
     });
     return max;
 };
