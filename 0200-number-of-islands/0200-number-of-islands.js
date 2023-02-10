@@ -3,7 +3,7 @@
  * @return {number}
  */
 var numIslands = function(grid) {
-    // iterate through grid 
+      // iterate through grid 
     // if we find a 1 we do BFS and change all attatched 1's to 0's 
     // increment counter 
     // return counter 
@@ -42,4 +42,3 @@ var numIslands = function(grid) {
     }
     return counter;
 };
-
