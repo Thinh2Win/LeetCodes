@@ -9,11 +9,7 @@ var characterReplacement = function(s, k) {
     let map = {};
     let max = -Infinity;
     for (var R = 0; R < s.length; R++) {
-        if (map[s[R]] === undefined) {
-            map[s[R]] = 1;
-        } else {
-            map[s[R]] += 1;
-        }
+        map[s[R]] ? map[s[R]] += 1 : map[s[R]] = 1;
         freqChar = Math.max(freqChar, map[s[R]]);
         while (R - L - freqChar + 1 > k) {
             map[s[L]] -= 1;
