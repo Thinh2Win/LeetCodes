@@ -9,7 +9,9 @@ var twoSum = function(nums, target) {
         let diff = target - nums[i];
         if (map[nums[i]] !== undefined) {
             return [map[nums[i]], i];
+        }
+        if (map[diff] === undefined) {
+            map[diff] = i;
         } 
-        map[diff] = i;
     }
 };
