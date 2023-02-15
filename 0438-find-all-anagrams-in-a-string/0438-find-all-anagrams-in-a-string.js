@@ -24,7 +24,7 @@ var findAnagrams = function(s, p) {
             L += 1;
         }
         map1[s[R]] ? map1[s[R]] += 1 : map1[s[R]] = 1; 
-        if ( isAnagram(map1, map2)) {
+        if (R >= p.length - 1 && isAnagram(map1, map2)) {
             answer.push(L);
         }
     }
