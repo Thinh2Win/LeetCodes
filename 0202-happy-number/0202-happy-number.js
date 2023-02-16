@@ -4,11 +4,13 @@
  */
 var isHappy = function(n) {
     let seen = {};
-    let start = `${n}`.split('').map(num => parseInt(num)**2).reduce((a, b) => a + b, 0);
-    while (start !== 1) {
-        if (seen[start]) return false;
-        seen[start] = true;
-        start = `${start}`.split('').map(num => parseInt(num)**2).reduce((a, b) => a + b, 0);
-    }
-    return start === 1 ? true : false;
+    let curr = n;
+    while (true) {
+        let arr = `${curr}`.split('');
+        let total = arr.map(num => (+num)**2).reduce((a, b) => a + b);
+        if (total === 1) return true;
+        if (seen[total]) return false;
+        seen[total] = true;
+        curr = total;
+    };
 };
