@@ -18,11 +18,7 @@ var decodeString = function(s) {
                 num = y + num;
             }
             let string = new Array(+num).fill(letters).join('');
-            if (stack.length && stack[stack.length - 1] !== '[') {
-                stack[stack.length - 1] = stack.at(-1) + string;
-            } else {
-                stack.push(string);
-            }
+            stack.push(string);
         } else {
             stack.push(s[i]);
         }
