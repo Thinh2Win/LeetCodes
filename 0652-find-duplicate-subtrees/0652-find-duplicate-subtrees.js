@@ -14,13 +14,13 @@ var findDuplicateSubtrees = function(root) {
     let map = {};
     let answer = [];
     const DFS = (node) => {
-        if (!node) return '*';
-        let subtree = `${node.val},${DFS(node.left)},${DFS(node.right)}`;
-        map[subtree] = (map[subtree] || 0) + 1;
+        if (!node) return '#';
+        let subtree = `${node.val}.${DFS(node.left)}.${DFS(node.right)}`;
+        map[subtree] ? map[subtree] += 1 : map[subtree] = 1;
         if (map[subtree] === 2) {
             answer.push(node);
-        }
-        return subtree;
+        };
+        return subtree;        
     };
     DFS(root);
     return answer;
