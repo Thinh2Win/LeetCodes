@@ -22,4 +22,5 @@ var compress = function(chars) {
         chars.push(chars[0][j]);
     }
     chars.shift();
+    return chars.length;
 };
