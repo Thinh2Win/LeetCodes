@@ -5,15 +5,15 @@
  */
 var strStr = function(haystack, needle) {
     for (let i = 0; i < haystack.length; i++) {
-        let x = i;
-        let y = 0;
-        while (haystack[x] === needle[y]) {
-            if (y === needle.length - 1) {
+        let hIdx = i;
+        let nIdx = 0;
+        while (haystack[hIdx] === needle[nIdx]) {
+            hIdx += 1;
+            nIdx += 1;
+            if (nIdx === needle.length) {
                 return i;
             }
-            x += 1;
-            y += 1;
         }
-    };
+    }
     return -1;
 };
