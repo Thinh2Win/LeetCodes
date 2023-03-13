@@ -4,18 +4,18 @@
  */
 var generateParenthesis = function(n) {
     let answer = [];
-    const recurse = (string, open, close) => {
-        if (open === 0 && close === 0) {
+    const recurse = (open, closing, string) => {
+        if (open === 0 && closing === 0) {
             answer.push(string);
             return;
         }
         if (open !== 0) {
-            recurse(string + '(', open - 1, close);
+            recurse(open - 1, closing, string + '(');
         }
-        if (close > open) {
-            recurse(string + ')', open, close - 1);
+        if (closing !== 0 && closing > open) {
+            recurse(open, closing - 1, string + ')');
         }
-    }
-    recurse('', n, n);
+    };
+    recurse(n, n, '');
     return answer;
 };
