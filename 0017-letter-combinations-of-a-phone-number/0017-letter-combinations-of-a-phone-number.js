@@ -2,7 +2,7 @@
  * @param {string} digits
  * @return {string[]}
  */
-const map = {
+const nums = {
     2: 'abc',
     3: 'def',
     4: 'ghi',
@@ -13,18 +13,18 @@ const map = {
     9: 'wxyz'
 }
 var letterCombinations = function(digits) {
-    if (digits.length === 0) return [];
+    if (!digits.length) return [];
     let answer = [];
-    const recurse = (idx, string) => {
-        if (idx === digits.length) {
-            answer.push(string);
+    const recurse = (idx, str) => {
+        if (str.length === digits.length) {
+            answer.push(str);
             return;
         }
-        let letters = map[digits[idx]];
-        letters.split('').forEach(letter => {
-           recurse(idx + 1, string + letter); 
+        let letters = nums[digits[idx]].split('');
+        letters.forEach(letter => {
+            recurse(idx + 1, str + letter);
         });
-    }
+    };
     recurse(0, '');
     return answer;
 };
