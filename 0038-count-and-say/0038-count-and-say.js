@@ -2,29 +2,30 @@
  * @param {number} n
  * @return {string}
  */
-map = {
-    1: "1",
+let map = {
+    1: '1',
+    2: '11',
+    3: '21'
 }
-
 var countAndSay = function(n) {
     if (map[n]) return map[n];
-    let current = 2;
-    while(!map[n]) {
-        map[current] = convert(map[current - 1]);
-        current += 1;
-    }
-    return map[n]
-};
-
-const convert = (string) => {
-    let answer = '';
-    for (let i = 0; i < string.length; i++) {
-        let counter = 1;
-        while (string[i] === string[i + 1]) {
-            counter += 1;
-            i += 1;
+    let i = 3;
+    while (i < n) {
+        let string = '';
+        let curr = map[i];
+        let idx = 0;
+        let count = 1;
+        while (idx < curr.length) {
+            if (curr[idx + 1] === curr[idx]) {
+                count += 1;
+            } else {
+                string += `${count}${curr[idx]}`;
+                count = 1;
+            }
+            idx += 1;
         }
-        answer += `${counter}${string[i]}`;
+        map[i + 1] = string;
+        i += 1;
     }
-    return answer;
-}
+    return map[n];
+};
