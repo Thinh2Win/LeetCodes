@@ -3,40 +3,10 @@
  * @return {boolean}
  */
 var isValidSudoku = function(board) {
-    return validRows(board) && validColumns(board) && validSquares(board);
+    return checkSquares(board) && checkRowsAndCols(board);
 };
 
-const validRows = (board) => {
-     for (let row = 0; row < board.length; row++) {
-        let map = {};
-        for (let col = 0; col < board[row].length; col++) {
-            let num = board[row][col]
-            if (num !== '.' && !map[num]) {
-                map[num] = 1;
-            } else if (map[num]) {
-                return false;
-            }
-        }
-    }
-    return true;
-}
-
-const validColumns = (board) => {
-    for (let col = 0; col < board[0].length; col++) {
-        let map = {};
-        for (let row = 0; row < board.length; row++) {
-            let num = board[row][col];
-            if (num !== '.' && !map[num]) {
-            map[num] = 1;
-            } else if (map[num]) {
-                return false;
-            }
-        }
-    }
-    return true;
-}
-
-const validSquares = (board) => {
+function checkSquares (board) {
     let rowStart = 0;
     let rowEnd = 3;
     while (rowEnd <= 9) {
@@ -46,13 +16,12 @@ const validSquares = (board) => {
             let map = {};
             for (let row = rowStart; row < rowEnd; row++) {
                 for (let col = colStart; col < colEnd; col++) {
-                    let num = board[row][col];
-                    if (num !== '.' && !map[num]) {
-                        map[num] = 1;
-                    } else if (map[num]) {
+                    if (board[row][col] !== '.' && !map[board[row][col]]) {
+                        map[board[row][col]] = 1;
+                    } else if (map[board[row][col]]) {
                         return false;
                     }
-                } 
+                }
             }
             colStart += 3;
             colEnd += 3;
@@ -60,5 +29,28 @@ const validSquares = (board) => {
         rowStart += 3;
         rowEnd += 3;
     }
+    return true;
+}
+
+
+function checkRowsAndCols (board) {
+    for (let i = 0; i < board.length; i++) {
+        let rows = {};
+        let columns = {};
+        for (let j = 0; j < board[i].length; j++) {
+            if (board[i][j] !== '.') {
+                if (rows[board[i][j]]) {
+                    return false;   
+                } 
+                rows[board[i][j]] = 1;
+            }
+           if (board[j][i] !== '.') {
+               if (columns[board[j][i]]) {
+                   return false;
+               }
+               columns[board[j][i]] = 1;
+           }
+        }
+    };
     return true;
 }
