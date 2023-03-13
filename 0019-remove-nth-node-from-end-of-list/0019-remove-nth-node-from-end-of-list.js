@@ -11,25 +11,23 @@
  * @return {ListNode}
  */
 var removeNthFromEnd = function(head, n) {
-    // slow and fast pointers 
     let slow = head;
     let fast = head;
-    while (n > 0) {
-        fast = fast.next; 
-        n -= 1;
-    };
-    while (fast) {
+    let prev = slow;
+    let i = n;
+    while (i > 0) {
         fast = fast.next;
+        i -= 1;
+    }
+    while (fast) {
+        prev = slow;
         slow = slow.next;
-    }
+        fast = fast.next;
+    };
     if (slow === head) {
-        head = head.next;
-        return head;
+        slow = slow.next;
+        return slow;
     }
-    let terminator = head;
-    while (terminator.next !== slow) {
-        terminator = terminator.next;
-    }
-    terminator.next = terminator.next.next;
+    prev.next = prev.next.next;
     return head;
 };
