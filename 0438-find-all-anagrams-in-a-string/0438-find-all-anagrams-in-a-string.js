@@ -23,9 +23,7 @@ var findAnagrams = function(s, p) {
             L += 1;
         }
         wMap[s[R]] !== undefined ? wMap[s[R]] += 1 : wMap[s[R]] = 1;
-        if (Object.keys(pMap).every(key => {
-        return pMap[key] === wMap[key]
-    })) {
+        if (Object.keys(pMap).every(key => pMap[key] === wMap[key])) {
             answer.push(L);
         }
     }
