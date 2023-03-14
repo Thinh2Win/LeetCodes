@@ -7,9 +7,9 @@ var rotate = function(matrix) {
     let R = matrix[0].length - 1;
     while (L < R) {
         let tL = [L, L];
-        let bL = [R, L];
         let tR = [L, R];
         let bR = [R, R];
+        let bL = [R, L];
         for (let i = L; i < R; i++) {
             let temp = matrix[tL[0]][tL[1]];
             matrix[tL[0]][tL[1]] = matrix[bL[0]][bL[1]];
