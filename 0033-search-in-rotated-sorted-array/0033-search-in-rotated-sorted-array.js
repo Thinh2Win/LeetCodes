@@ -6,22 +6,21 @@
 var search = function(nums, target) {
     let L = 0; 
     let R = nums.length - 1;
-    while (L <= R) {
-        let mp = Math.floor((R + L) / 2);
-        if (nums[mp] === target) return mp;
+    while (L < R) {
+        let mp = Math.floor((R - L) / 2) + L;
         if (nums[L] <= nums[mp]) {
-            if (nums[L] <= target && target <= nums[mp]) {
-                R = mp - 1;
+            if (target >= nums[L] && target <= nums[mp]) {
+                R = mp;
             } else {
                 L = mp + 1;
             }
         } else {
-            if (nums[R] >= target && target >= nums[mp]) {
+            if (target > nums[mp] && target <= nums[R]) {
                 L = mp + 1;
             } else {
-                R = mp - 1;
+                R = mp;
             }
         }
     }
-    return -1;
+    return nums[L] === target ? L : -1;
 };
