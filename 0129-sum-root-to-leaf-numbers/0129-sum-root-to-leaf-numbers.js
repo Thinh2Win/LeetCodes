@@ -11,16 +11,15 @@
  * @return {number}
  */
 var sumNumbers = function(root) {
-    let nums = [];
-    const DFS = (node, string) => {
+    const DFS = (node, string, sum) => {
         if (!node.left && !node.right) {
             string += node.val;
-            nums.push(string);
-            return;
+            sum += +string;
+            return sum;
         }
-        node.left && DFS(node.left, string + node.val);
-        node.right && DFS(node.right, string + node.val);
+        let sumLeft = node.left && DFS(node.left, string + node.val, sum);
+        let sumRight = node.right && DFS(node.right, string + node.val, sum);
+        return sumLeft + sumRight;
     };
-    DFS(root, '');
-    return nums.reduce((a, b) => +a + +b, 0);
+    return DFS(root, '', 0);
 };
