@@ -10,16 +10,13 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var sumNumbers = function(root) {
-    const DFS = (node, string, sum) => {
+var sumNumbers = function(node, string = '', sum = 0) {
         if (!node.left && !node.right) {
             string += node.val;
             sum += +string;
             return sum;
         }
-        let sumLeft = node.left && DFS(node.left, string + node.val, sum);
-        let sumRight = node.right && DFS(node.right, string + node.val, sum);
+        let sumLeft = node.left && sumNumbers(node.left, string + node.val, sum);
+        let sumRight = node.right && sumNumbers(node.right, string + node.val, sum);
         return sumLeft + sumRight;
-    };
-    return DFS(root, '', 0);
 };
