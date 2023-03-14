@@ -4,34 +4,31 @@
  */
 var spiralOrder = function(matrix) {
     let answer = [];
-    let fc = 0;
-    let lc = matrix[0].length - 1;
-    let fr = 0;
-    let lr = matrix.length - 1;
-    while (fc <= lc && fr <= lr) {
-        for (let i = fc; i <= lc; i++) {
-            answer.push(matrix[fr][i]);
-        }
-        fr += 1;
-        // last col
-        for (let j = fr; j <= lr; j++) {
-            answer.push(matrix[j][lc]);
-        }
-        lc -= 1;
-        // last row
-        if (fr <= lr) {
-            for (let k = lc; k >= fc; k--) {
-                answer.push(matrix[lr][k]);
+    let rStart = 0;
+    let rEnd = matrix.length - 1;
+    let cStart = 0; 
+    let cEnd = matrix[0].length - 1;
+    while (rStart <= rEnd && cStart <= cEnd) {
+            for (let i = cStart; i <= cEnd; i++) {
+                answer.push(matrix[rStart][i]);
             }
-            lr -= 1;
-        }
-        // first col
-        if (fc <= lc) {
-            for (let l = lr; l >= fr; l--) {
-                answer.push(matrix[l][fc]);
-            };
-            fc += 1;
-        }
+            for (let i = rStart + 1; i <= rEnd; i++) {
+                answer.push(matrix[i][cEnd]);
+            }
+            for (let i = cEnd - 1; i >= cStart; i--) {
+                if (rEnd > rStart) {
+                    answer.push(matrix[rEnd][i]);    
+                }
+            }
+            for (let i = rEnd - 1; i > rStart; i--) {
+                if (cEnd > cStart) {
+                    answer.push(matrix[i][cStart]);   
+                }
+            }
+        rStart += 1;
+        rEnd -= 1;
+        cStart += 1;
+        cEnd -= 1;
     }
     return answer;
 };
