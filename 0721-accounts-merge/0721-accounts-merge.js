@@ -3,41 +3,45 @@
  * @return {string[][]}
  */
 var accountsMerge = function(accounts) {
-    let map = {};
-    let adjList = new Array(accounts.length).fill(0).map(zero => []);
-    let seen = {};
     let answer = [];
+    let adjList = new Array(accounts.length).fill(0).map(zero => []);
+    let map = {};
     accounts.forEach((account, idx) => {
         for (let i = 1; i < account.length; i++) {
             let email = account[i];
-             if (map[email] === undefined) {
-                map[email] = idx;
+            if (map[email] !== undefined) {
+                let mergeIdx = map[email];
+                adjList[mergeIdx].push(idx);
+                adjList[idx].push(mergeIdx);
             } else {
-                let connectedIdx = map[email];
-                adjList[connectedIdx].push(idx);
-                adjList[idx].push(connectedIdx);
+                map[email] = idx;
             }
         }
     });
+    let seen = {};
     const DFS = (idx, set) => {
-        accounts[idx].forEach(val => set.add(val));
+        if (seen[idx]) return;
+        accounts[idx].forEach(email => {
+            set.add(email);
+        });
         seen[idx] = true;
-        for (let k = 0; k < adjList[idx].length; k++) {
-            if (seen[adjList[idx][k]]) continue;
-            DFS(adjList[idx][k], set);
+        for (let i = 0; i < adjList[idx].length; i++) {
+            if (seen[adjList[idx][i]]) continue;
+            DFS(adjList[idx][i], set);
         }
         return set;
-    }
-    for (let j = 0; j < adjList.length; j++) {
-        if (seen[j]) continue;
-        if (adjList[j].length === 0) {
-            answer.push(accounts[j].sort());
+    };
+    for (let i = 0; i < adjList.length; i++) {
+        if (seen[i]) continue;
+        if (adjList[i].length === 0) {
+            accounts[i].sort();
+            answer.push(accounts[i]);
         } else {
-            let mergedAccount = [...DFS(j, new Set())];
-            let name = mergedAccount.shift();
-            mergedAccount.sort();
-            mergedAccount.unshift(name);
-            answer.push(mergedAccount);
+            let merged = [...DFS(i, new Set())];
+            let name = merged.shift();
+            merged.sort();
+            merged.unshift(name);
+            answer.push(merged);
         }
     }
     return answer;
