@@ -4,13 +4,7 @@
  */
 var groupAnagrams = function(strs) {
     let map = {};
-    strs.forEach((word, idx) => {
-        map[idx] = word;
-        strs[idx] = word.split('').sort().join('');
-    });
-    let anagrams = {};
-    strs.forEach((word, idx) => {
-       anagrams[word] ? anagrams[word].push(map[idx]) : anagrams[word] = [map[idx]]; 
-    });
-    return Object.values(anagrams);
+    let sorted = strs.map(word => word.split('').sort().join(''));
+    sorted.forEach((word, idx) => map[word] ? map[word].push(strs[idx]) : map[word] = [strs[idx]]);
+    return Object.values(map);
 };
