@@ -3,20 +3,23 @@
  * @return {number}
  */
 var numDecodings = function(s) {
-    let memo = {};
-    const DFS = (index) => {
-        let result = 0;
-        if (memo[index] !== undefined) {
-            return memo[index];
+    if (s[0] === '0') return 0;
+    let nums = s.split('');
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] === '0') {
+            if (nums[i + 1] === '0') return 0;
+            nums[i - 1] += '0';
+            if (+(nums[i - 1]) > 26) return 0;
+            nums.splice(i, 1);
         }
-        if (index === s.length) {
-            return 1;
-        }
-console.log(+s[index] + +s[index + 1])
-        result += +s[index] > 0 ? DFS(index + 1) : 0;
-        result += +s[index] !== 0 && s[index + 1] !== undefined && +(s[index] + s[index + 1]) <= 26 ? DFS(index + 2) : 0;
-        memo[index] = result;
-        return result;
-    };
-    return DFS(0);
+    }
+    let dp = new Array(nums.length + 1).fill(0);
+    dp[dp.length - 1] = 1;
+    for (let j = nums.length - 1; j >= 0; j--) {
+        if (+(nums[j] + nums[j + 1]) <= 26) {
+            dp[j] += dp[j + 2];
+        }  
+            dp[j] += dp[j + 1];
+    }
+    return dp[0];
 };
