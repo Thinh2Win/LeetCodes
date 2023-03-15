@@ -6,7 +6,7 @@
 var exist = function(board, word) { 
     // find all locations of first letter of word
     // then do bfs from locations to check if the next following letters exist 
-    if (word.length > (board.length * board[0].length)) return false;
+    // if (word.length > (board.length * board[0].length)) return false;
     let locations = [];
     for (let row = 0; row < board.length; row++) {
         for (let col = 0; col < board[row].length; col++) {
