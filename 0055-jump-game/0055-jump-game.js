@@ -5,18 +5,13 @@
 var canJump = function(nums) {
     let dp = [];
     dp[nums.length - 1] = true;
+    let jump = nums.length - 1;
     for (let i = dp.length - 2; i >= 0; i--) {
-        if (nums[i] === 0) {
+        if (jump - i <= nums[i]) {
+            dp[i] = true;
+            jump = i;
+        } else {
             dp[i] = false;
-            continue;
-        }
-        for (let j = 1; j <= nums[i]; j++) {
-            if (dp[i + j]) {
-                dp[i] = true;
-                break;
-            } else {
-                dp[i] = false;       
-            }
         }
     }
     return dp[0];
