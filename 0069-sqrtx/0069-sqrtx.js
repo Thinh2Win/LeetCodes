@@ -3,20 +3,18 @@
  * @return {number}
  */
 var mySqrt = function(x) {
-    if (x === 0) return 0;
     let L = 0;
     let R = x;
-    let prev = null;
-    while (L < R) {
-        let mp = ((R - L) / 2) + L;
+    while (L <= R) {
+        let mp = Math.floor((R + L) / 2);
         let product = mp * mp;
-        if (prev === product) break;
         if (product > x) {
-            R = mp;
+            R = mp - 1;
+        } else if (product < x) {
+            L = mp + 1;
         } else {
-            L = mp;
+            return mp;
         }
-        prev = product;
     }
-    return Math.floor(L);
+    return R;
 };
