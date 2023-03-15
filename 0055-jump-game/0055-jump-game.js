@@ -3,14 +3,22 @@
  * @return {boolean}
  */
 var canJump = function(nums) {
-    let dp = new Array(nums.length).fill(false);
-    dp[dp.length - 1] = true;
-    let recTrue = dp.length - 1;
+    let dp = [];
+    dp[nums.length - 1] = true;
     for (let i = dp.length - 2; i >= 0; i--) {
-        if (recTrue - i <= nums[i]) {
-            dp[i] = true; 
-            recTrue = i;
-        } 
+        if (nums[i] === 0) {
+            dp[i] = false;
+            continue;
+        }
+        for (let j = 1; j <= nums[i]; j++) {
+            if (dp[i + j]) {
+                dp[i] = true;
+                break;
+            } else {
+                dp[i] = false;       
+            }
+        }
     }
+    console.log(dp)
     return dp[0];
 };
