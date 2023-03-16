@@ -15,15 +15,14 @@ var levelOrder = function(root) {
     let answer = [];
     let q = [root];
     while (q.length) {
-        let container = [];
-        let level = q.length; 
-        for (let i = 0; i < level; i++) {
+        let level = [];
+        for (let i = q.length; i > 0; i--) {
             let node = q.shift();
-            container.push(node.val);
+            level.push(node.val);
             node.left && q.push(node.left);
             node.right && q.push(node.right);
         }
-        answer.push(container);
+        answer.push(level);
     }
     return answer;
 };
