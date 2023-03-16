@@ -12,21 +12,19 @@
  */
 var zigzagLevelOrder = function(root) {
     if (!root) return [];
-    let level = 0;
+    let level = 1;
     let q = [root];
     let answer = [];
     while (q.length) {
-        let i = q.length;
         let container = [];
-        for (let j = i; j > 0; j--) {
+        for (let i = q.length; i > 0; i--) {
             let node = q.shift();
+            level % 2 === 1 ? container.push(node.val) : container.unshift(node.val);
             node.left && q.push(node.left);
             node.right && q.push(node.right);
-            container.push(node.val);
         }
-        level % 2 === 0 && answer.push(container);
-        level % 2 === 1 && answer.push(container.reverse());
+        answer.push(container);
         level += 1;
-    };
+    }
     return answer;
 };
