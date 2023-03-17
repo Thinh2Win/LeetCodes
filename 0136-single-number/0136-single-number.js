@@ -3,7 +3,5 @@
  * @return {number}
  */
 var singleNumber = function(nums) {
-    let answer = 0;
-    nums.forEach(num => answer ^= num);
-    return answer;
+    return nums.reduce((a, b) => a ^ b, 0);
 };
