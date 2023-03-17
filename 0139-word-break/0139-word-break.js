@@ -4,7 +4,7 @@
  * @return {boolean}
  */
 var wordBreak = function(s, wordDict) {
-    let set = new Set(wordDict)
+    let set = new Set(wordDict);
     let memo = new Map();
     const DFS = (string) => {
         if (memo.has(string)) return memo.get(string);
@@ -17,6 +17,6 @@ var wordBreak = function(s, wordDict) {
         }
         memo.set(string, false);
         return false;
-    };
+    }
     return DFS(s);
 };
