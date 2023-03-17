@@ -19,13 +19,14 @@ var longestConsecutive = function(nums) {
         let connections = map[num] || [];
         for (let j = 0; j < connections.length; j++) {
             if (seen[connections[j]]) continue;
-            DFS(connections[j], depth += 1);
+            depth += 1
+            DFS(connections[j]);
         }
     }
     for (let i = 0; i < nums.length; i++) {
         if (seen[nums[i]]) continue;
         depth = 1;
-        DFS(nums[i], 1);
+        DFS(nums[i]);
     };
     return max;
 };
