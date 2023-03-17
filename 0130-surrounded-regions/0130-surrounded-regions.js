@@ -20,13 +20,13 @@ var solve = function(board) {
     const BFS = (location) => {
         let [row, col] = location;
         board[row][col] = 'C';
-        if (board?.[row - 1]?.[col] === 'O') {
+        if (board[row - 1]?.[col] === 'O') {
             BFS([row - 1, col]);
         }
         if (board[row][col + 1] === 'O') {
             BFS([row, col + 1]);
         }
-        if (board?.[row + 1]?.[col] === 'O') {
+        if (board[row + 1]?.[col] === 'O') {
             BFS([row + 1, col]);
         }
         if (board[row][col - 1] === 'O') {
