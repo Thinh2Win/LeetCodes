@@ -20,18 +20,11 @@ var solve = function(board) {
     const BFS = (location) => {
         let [row, col] = location;
         board[row][col] = 'C';
-        if (board[row - 1]?.[col] === 'O') {
-            BFS([row - 1, col]);
-        }
-        if (board[row][col + 1] === 'O') {
-            BFS([row, col + 1]);
-        }
-        if (board[row + 1]?.[col] === 'O') {
-            BFS([row + 1, col]);
-        }
-        if (board[row][col - 1] === 'O') {
-            BFS([row, col - 1]);
-        }
+        let directions = [[1, 0], [-1, 0], [0, 1], [0, -1]];
+        directions.forEach(direction => {
+            let [x, y] = direction
+            if (board[row + x]?.[col + y] === 'O') BFS([row + x, col + y]);
+        });
     }
     locations.forEach(location => BFS(location));
     for (let row = 0; row < board.length; row++) {
