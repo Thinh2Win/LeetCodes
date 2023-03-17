@@ -23,7 +23,7 @@ var solve = function(board) {
         if (row - 1 >= 0 && board[row - 1][col] === 'O') {
             BFS([row - 1, col]);
         }
-        if (col + 1 < board[0].length - 1 && board[row][col + 1] === 'O') {
+        if (board[row][col + 1] === 'O') {
             BFS([row, col + 1]);
         }
         if (row + 1 < board.length - 1 && board[row + 1][col] === 'O') {
