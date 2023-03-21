@@ -22,7 +22,6 @@ var zeroFilledSubarray = function(nums) {
             zeros += 1;
             i += 1;
         };
-        console.log(zeros, findFactorial(zeros))
         count += findFactorial(zeros);
         zeros = 0;
     };
