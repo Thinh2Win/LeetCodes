@@ -36,5 +36,5 @@ function findFactorial(num) {
         factorials[i] = factorials[i - 1] + i;
         i += 1;
     }
-    return factorials[i];
+    return factorials[num];
 }
