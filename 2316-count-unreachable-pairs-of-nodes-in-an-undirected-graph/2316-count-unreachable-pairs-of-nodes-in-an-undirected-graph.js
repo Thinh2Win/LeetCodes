@@ -4,13 +4,6 @@
  * @return {number}
  */
 var countPairs = function(n, edges) {
-    // keep track of groups and how many are in each group 
-    // create adjList
-    // create a map to keep track of visited nodes
-    // DFS through list and find connected groups using a num variable
-    // break case is if the adjList is empty then we can push num into group
-    // or if we've already visited the node we can return out of our DFS 
-    // once we have our groups, we can find unreachable nodes
     let groups = [];
     let adjList = new Array(n).fill(0).map(zero => []);
     edges.forEach(edge => {
@@ -34,11 +27,9 @@ var countPairs = function(n, edges) {
     };
     if (groups.length === 1) return 0;
     let answer = 0;
+    let sum = groups.reduce((a,b) => a + b, 0);
     for (let k = 0; k < groups.length - 1; k++) {
-        let curr = groups[k];
-        for (let l = k + 1; l < groups.length; l++) {
-            answer += (curr * groups[l]);
-        }
+        answer += groups[k] * (sum -= groups[k]);
     }
     return answer;
 };
