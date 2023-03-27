@@ -18,6 +18,5 @@ var minPathSum = function(grid) {
             dp[row][col] = grid[row][col] + min;
         };
     }
-    console.log(dp)
     return dp.at(-1).at(-1);
 };
