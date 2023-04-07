@@ -3,14 +3,16 @@
  * @return {number}
  */
 var lengthOfLIS = function(nums) {
- let list = [];
-    for (let i = 0; i < nums.length; i++) {
-        list.push(1);
-        for (let j = 0; j < i; j++) {
-            if (nums[j] < nums[i]) {
-                list[i] = Math.max(list[i], list[j] + 1);
+    let dp = new Array(nums.length);
+    dp[dp.length - 1] = 1;
+    for (let i = dp.length - 2; i >= 0; i--) {
+        let max = 1;
+        for (let j = i + 1; j < nums.length; j++) {
+            if (nums[i] < nums[j]) {
+                max = Math.max(max, dp[j] + 1);
             }
         }
+        dp[i] = max;
     }
-    return nums.length ? Math.max.apply(null, list) : 0;
+    return Math.max(...dp);
 };
