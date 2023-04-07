@@ -3,8 +3,8 @@
  * @return {string[][]}
  */
 var groupAnagrams = function(strs) {
+    let sorted = strs.map(string => string.split('').sort().join(''));
     let map = {};
-    let sorted = strs.map(word => word.split('').sort().join(''));
-    sorted.forEach((word, idx) => map[word] ? map[word].push(strs[idx]) : map[word] = [strs[idx]]);
+    sorted.forEach((string, idx) => map[string] ? map[string].push(strs[idx]) : map[string] = [strs[idx]]);
     return Object.values(map);
 };
