@@ -4,8 +4,8 @@
  * @return {number[]}
  */
 var topKFrequent = function(nums, k) {
-    let map = {};
-    nums.forEach(num => map[num] ? map[num][1] += 1 : map[num] = [num, 1]);
-    let mostFrequent = Object.values(map).sort((a, b) => b[1] - a[1]);
-    return mostFrequent.slice(0, k).map(value => value[0]);
+    let frequency = {};
+    nums.forEach(num => frequency[num] ? frequency[num][1] += 1 : frequency[num] = [num, 1]);
+    let arr = Object.values(frequency).sort((a, b) => b[1] - a[1]);
+    return arr.slice(0, k).map(freq => freq[0]);
 };
