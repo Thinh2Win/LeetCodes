@@ -3,30 +3,32 @@
  * @return {number[][]}
  */
 var threeSum = function(nums) {
-    // keep track of 3 sums
-    let answer = [];
-    // sort the array 
+    // sort nums array
+    // need a base point and sliding window 
+    // so basically a while loop implementing sliding window inside a forloop 
+    // for our window
+        // decrement R if the sum of 3 points is greater than target
+        // increment L if the sum of 3 points is less than target 
+        // else we have our target and should push the 3 numbers into a container and push the container into an answer array 
+        // to avoid duplicates, use a set 
     nums.sort((a, b) => a - b);
-    // iterate through nums array 
+    let answer = new Set();
     for (let i = 0; i < nums.length; i++) {
-        // create our window variables L R  
-        if (nums[i] === nums[i - 1]) continue;
         let L = i + 1;
         let R = nums.length - 1;
         while (L < R) {
-            let sum = nums[i] + nums[L] + nums[R];
+            let sum = nums[L] + nums[R] + nums[i];
             if (sum > 0) {
                 R -= 1;
             } else if (sum < 0) {
                 L += 1;
             } else {
-                answer.push([nums[i], nums[L], nums[R]]);
-                while (nums[L] === nums[L + 1]) L += 1;
-                while (nums[R] === nums[R - 1]) R -= 1;
-                R -= 1;
+                let container = JSON.stringify([nums[L], nums[R], nums[i]]);
+                answer.add(container);
                 L += 1;
+                R -= 1;
             }
         }
     }
-    return answer;
+    return [...answer].map(container => JSON.parse(container));
 };
