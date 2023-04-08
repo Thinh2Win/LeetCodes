@@ -12,17 +12,22 @@
  * @return {Node}
  */
 var copyRandomList = function(head) {
-  let copies = new Map();
+    // create a map to store node and its copy 
+    // traverse the linked list
+    // set the current node to its copy 
+    // set the current nodes pointer (next) to the nexts copy 
+    // continue traversing 
+    let map = new Map();
     let node = head;
     while (node) {
-        copies.set(node, new Node(node.val));
+        map.set(node, new Node(node.val));
         node = node.next;
-    }
+    };
     node = head;
     while (node) {
-        copies.get(node).next = copies.get(node.next) || null;
-        copies.get(node).random = copies.get(node.random) || null;
+        map.get(node).next = map.get(node.next) || null;
+        map.get(node).random = map.get(node.random) || null;
         node = node.next;
     }
-    return copies.get(head);
+    return map.get(head)
 };
