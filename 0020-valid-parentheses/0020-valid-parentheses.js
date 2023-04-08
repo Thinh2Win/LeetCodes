@@ -2,19 +2,25 @@
  * @param {string} s
  * @return {boolean}
  */
-const parenthesis = {
-    '(': ')',
-    '{': '}',
-    '[': ']'
+const map = {
+    '[': true,
+    '(': true,
+    '{': true,
+    ']': '[',
+    ')': '(',
+    '}': '{',
 }
+
 var isValid = function(s) {
     let stack = [];
     for (let i = 0; i < s.length; i++) {
-        if (parenthesis[s[i]]) {
-            stack.push(parenthesis[s[i]]);
+        if (map[s[i]] === true) {
+            stack.push(s[i]);
         } else {
-            if (stack.pop() !== s[i]) return false;
+            let check = stack.pop();
+            if (map[s[i]] !== check) return false;
         }
     }
-    return stack.length ? false : true;
+    if (stack.length) return false;
+    return true;
 };
