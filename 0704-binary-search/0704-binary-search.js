@@ -5,16 +5,17 @@
  */
 var search = function(nums, target) {
     let L = 0;
-    let R = nums.length;
+    let R = nums.length - 1;
     while (L < R) {
-        var mp = Math.floor((R - L) / 2) + L;
-        if (nums[mp] > target) {
-            R = mp;
-        } else if (nums[mp] < target) {
+        let mp = Math.floor((R - L) / 2) + L;
+        let point = nums[mp];
+        if (point < target) {
             L = mp + 1;
+        } else if (point > target) {
+            R = mp;
         } else {
             return mp;
         }
     }
-    return -1;
+    return nums[L] === target ? L : -1;
 };
