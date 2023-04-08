@@ -12,14 +12,14 @@
  */
 var maxDepth = function(root) {
     if (!root) return null;
-    let max = 0;
-    const DFS = (node, level) => {
-        if (!node.right && !node.left) {
-            max = Math.max(max, level);
+    let max = -Infinity;
+    const DFS = (node, depth) => {
+        if (!node.left && !node.right) {
+            max = Math.max(max, depth);    
         }
-        node.left && DFS(node.left, level + 1)
-        node.right && DFS(node.right, level + 1)
-    };
-    DFS(root, 1);
+        node.left && DFS(node.left, depth + 1);
+        node.right && DFS(node.right, depth + 1);
+    }
+    DFS(root, 1)
     return max;
 };
