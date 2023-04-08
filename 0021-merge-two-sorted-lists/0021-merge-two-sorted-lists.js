@@ -16,8 +16,8 @@ var mergeTwoLists = function(list1, list2) {
     let l1 = list1;
     let l2 = list2;
     while (l1 || l2) {
-        let val1 = l1 !== null ? l1.val : Infinity;
-        let val2 = l2 !== null ? l2.val : Infinity;
+        let val1 = l1?.val ?? Infinity;
+        let val2 = l2?.val ?? Infinity;
         if (val1 < val2) {
             link.next = l1;
             l1 = l1.next;
