@@ -4,7 +4,7 @@
  * @return {string}
  */
 var minWindow = function(s, t) {
-    if (t.length > s.length) return '';
+        if (t.length > s.length) return '';
     let tMap = {};
     let wMap = {};
     let L = 0;
