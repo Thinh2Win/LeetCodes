@@ -12,15 +12,11 @@
  */
 var invertTree = function(root) {
     if (!root) return null;
-    let q = [root];
-    while (q.length) {
-        let node = q.shift();
-        let left = node.left || null;
-        let right = node.right || null;
-        node.left && q.push(node.left);
-        node.right && q.push(node.right);
-        node.right = left;
-        node.left = right;
-    };
+    let left = root.left || null;
+    let right = root.right || null;
+    root.left = right;
+    root.right = left;
+    root.left && invertTree(root.left);
+    root.right && invertTree(root.right);
     return root;
 };
