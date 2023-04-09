@@ -12,14 +12,18 @@
  * @return {boolean}
  */
 var isSameTree = function(p, q) {
-    let tree1 = [];
-    let tree2 = [];
-    const DFS = (node, tree) => {
-        tree.push(node.val);
-        node.left ? DFS(node.left, tree) : tree.push(null);
-        node.right ? DFS(node.right, tree) : tree.push(null);
-    }
-    p && DFS(p, tree1);
-    q && DFS(q, tree2);
-    return JSON.stringify(tree1) === JSON.stringify(tree2)
+    if (!p && !q) return true;
+    if (!p && q || p && !q) return false;
+    let check = true;
+    const DFS = (p, q) => {
+        if (!check) return;
+        if (p.left?.val !== q.left?.val || p.right?.val !== q.right?.val || p?.val !== q?.val) {
+            check = false;
+            return;
+        }
+        p.left && DFS(p.left, q.left);
+        p.right && DFS(p.right, q.right);
+    };
+    DFS(p, q);
+    return check;
 };
