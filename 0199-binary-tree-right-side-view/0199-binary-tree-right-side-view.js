@@ -12,25 +12,17 @@
  */
 var rightSideView = function(root) {
     if (!root) return [];
-    let answer = [root.val];
+    let answer = [];
     let q = [root];
     while (q.length) {
-        let level = q.length; 
-        let hasPushed = false;
-        for (let i = 0; i < level; i++) {
+        let level = [];
+        for (let i = q.length; i > 0; i--) {
             let node = q.shift();
-            if (node.right) {
-                q.push(node.right);
-                if (!hasPushed) {
-                    answer.push(node.right.val);
-                    hasPushed = true;
-                }
-            } else if (node.left && !hasPushed) {
-                answer.push(node.left.val);
-                hasPushed = true;
-            }
-            node.left ? q.push(node.left) : null;
-        }
-    }
+            level.push(node.val);
+            node.left && q.push(node.left);
+            node.right && q.push(node.right);
+        };
+        answer.push(level.pop());
+    };
     return answer;
 };
