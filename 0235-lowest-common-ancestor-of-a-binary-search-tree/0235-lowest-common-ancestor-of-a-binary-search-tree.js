@@ -13,26 +13,15 @@
  * @return {TreeNode}
  */
 var lowestCommonAncestor = function(root, p, q) {
-    let pPath = [];
-    let qPath = [];
-    const BS = (node, path, target) => {
-        if (node === target) {
-            target === p && pPath.push(...path, node);
-            target === q && qPath.push(...path, node);
-            return;
-        }
-        if (target.val > node.val) {
-            BS(node.right, [...path, node], target);
-        } else if (target.val < node.val) {
-            BS(node.left, [...path, node], target);
-        }
-    }
-    BS(root, [], p);
-    BS(root, [], q);
-    let [shortest, longest] = [pPath, qPath].sort((a, b) => a.length - b.length);
-    for (let i = longest.length - 1; i >= 0; i--) {
-        for (let j = shortest.length - 1; j >= 0; j--) {
-            if (longest[i] === shortest[j]) return longest[i];
-        }
-    }
+   const loop = (currentNode) => {
+       if (p.val < currentNode.val && q.val < currentNode.val) {
+           return loop(currentNode.left);
+       }
+       if (p.val > currentNode.val && q.val > currentNode.val) {
+           return loop(currentNode.right);
+       }
+       return currentNode;
+   }
+    return loop(root);
+    
 };
