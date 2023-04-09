@@ -12,17 +12,17 @@
  */
 var levelOrder = function(root) {
     if (!root) return [];
-    let answer = [];
     let q = [root];
+    let answer = [];
     while (q.length) {
-        let level = [];
+        let container = [];
         for (let i = q.length; i > 0; i--) {
             let node = q.shift();
-            level.push(node.val);
             node.left && q.push(node.left);
             node.right && q.push(node.right);
+            container.push(node.val);
         }
-        answer.push(level);
+        answer.push(container);
     }
     return answer;
 };
