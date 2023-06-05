@@ -12,7 +12,7 @@ var searchInsert = function(nums, target) {
             R = mp;
         } else if (nums[mp] < target) {
             L = mp + 1;
-        } else if (nums[mp] === target) {
+        } else {
             return mp;
         }
     }
