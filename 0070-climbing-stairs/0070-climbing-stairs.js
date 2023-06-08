@@ -3,12 +3,16 @@
  * @return {number}
  */
 var climbStairs = function(n) {
-    let map = {1: 1, 2: 2};
+    let map = {
+        1: 1,
+        2: 2,
+        3: 3,
+    }
     if (map[n]) return map[n];
-    let i = 3;
-    while (i <= n) {
-        map[i] = map[i - 1] + map[i - 2];
-        i += 1;
+    let step = 4;
+    while (step <= n) {
+        map[step] = map[step - 1] + map[step - 2];
+        step += 1;
     }
     return map[n];
 };
