@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1833-find-the-highest-altitude](https://github.com/Thinh2Win/LeetCodes/tree/master/1833-find-the-highest-altitude) |
+| [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2551-apply-operations-to-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2551-apply-operations-to-an-array) |
 ## Prefix Sum
 |  |
@@ -31,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
+| [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 ## Sorting
 |  |
 | ------- |
@@ -46,5 +48,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2551-apply-operations-to-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2551-apply-operations-to-an-array) |
+## Matrix
+|  |
+| ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 <!---LeetCode Topics End-->
