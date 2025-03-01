@@ -3,9 +3,5 @@ class Solution:
         frequency = {}
         for num in arr:
             frequency[num] = frequency.get(num, 0) + 1
-        check = []
-        for key in frequency:
-            if frequency[key] in check:
-                return False
-            check.append(frequency[key])
-        return True
+        check = set(frequency.values())
+        return len(check) == len(frequency)
