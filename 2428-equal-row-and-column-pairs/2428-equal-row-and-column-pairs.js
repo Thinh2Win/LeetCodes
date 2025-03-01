@@ -20,7 +20,6 @@ var equalPairs = function(grid) {
         for (let col = 0; col < grid[0].length; col++) {
             numbers.push(grid[row][col]);
         }
-        console.log(numbers.join(''))
         count += map.get(numbers.join(',')) || 0;
     }
     return count;
