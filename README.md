@@ -81,4 +81,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0969-number-of-recent-calls](https://github.com/Thinh2Win/LeetCodes/tree/master/0969-number-of-recent-calls) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/Thinh2Win/LeetCodes/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
