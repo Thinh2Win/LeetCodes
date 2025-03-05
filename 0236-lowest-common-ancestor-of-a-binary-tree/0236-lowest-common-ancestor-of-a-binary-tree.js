@@ -12,8 +12,21 @@
  * @return {TreeNode}
  */
 var lowestCommonAncestor = function(root, p, q) {
-    if (!root || root === p || root === q) return root;
-    let left = lowestCommonAncestor(root.left, p, q);
-    let right = lowestCommonAncestor(root.right, p, q);
-    return (left && right) ? root : (left || right);
+    if (!root) return root;
+    // dfs 
+    let LCA = null;
+    // dfs recursive function will return boolean if the current branch has either p or q
+    const DFS = (node) => {
+        if (!node) return false
+        
+        let left = DFS(node.left) || 0;
+        let right = DFS(node.right) || 0;
+        let mid = (node === p || node === q) ? 1 : 0;
+
+        if (left + mid + right >= 2) LCA = node;
+        return (left + mid + right) > 0;
+    }
+    DFS(root);
+    return LCA;
+
 };
