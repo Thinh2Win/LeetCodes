@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0783-search-in-a-binary-search-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Depth-First Search
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0783-search-in-a-binary-search-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Math
@@ -117,4 +119,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Thinh2Win/LeetCodes/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Thinh2Win/LeetCodes/tree/master/2649-count-total-number-of-colored-cells) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
