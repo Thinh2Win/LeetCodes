@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0724-find-pivot-index](https://github.com/Thinh2Win/LeetCodes/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
+| [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -65,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 ## Stack
 |  |
@@ -101,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0871-keys-and-rooms](https://github.com/Thinh2Win/LeetCodes/tree/master/0871-keys-and-rooms) |
+| [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Breadth-First Search
@@ -108,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0871-keys-and-rooms](https://github.com/Thinh2Win/LeetCodes/tree/master/0871-keys-and-rooms) |
+| [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Binary Tree
 |  |
