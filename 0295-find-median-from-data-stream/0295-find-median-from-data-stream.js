@@ -58,13 +58,16 @@ var MedianFinder = function() {
  */
 MedianFinder.prototype.addNum = function(num) {
     this.maxQ.enqueue(num);
-
+    // in the case we have something like 
+    // maxQ = [3, 1]
+    // minQ = [2]
+    // we need to swap the front elements of max and min queues 
     if (this.maxQ.front() > this.minQ.front()) {
         this.minQ.enqueue(this.maxQ.dequeue())
     }
 
+    // rearrange to balance queues if one is greater than the other 
     if (this.maxQ.size() - this.minQ.size() >= 2) {
-        // rearrange
         this.minQ.enqueue(this.maxQ.dequeue());
     } else if (this.minQ.size() - this.maxQ.size() >= 2) {
         this.maxQ.enqueue(this.minQ.dequeue());
