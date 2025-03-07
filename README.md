@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
+| [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Thinh2Win/LeetCodes/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Sorting
@@ -84,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/Thinh2Win/LeetCodes/tree/master/0146-lru-cache) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
 | [0969-number-of-recent-calls](https://github.com/Thinh2Win/LeetCodes/tree/master/0969-number-of-recent-calls) |
+| [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
 ## Queue
 |  |
 | ------- |
@@ -98,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0146-lru-cache](https://github.com/Thinh2Win/LeetCodes/tree/master/0146-lru-cache) |
 | [0328-odd-even-linked-list](https://github.com/Thinh2Win/LeetCodes/tree/master/0328-odd-even-linked-list) |
+| [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
 ## Tree
 |  |
 | ------- |
@@ -156,4 +159,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Thinh2Win/LeetCodes/tree/master/0146-lru-cache) |
+| [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
 <!---LeetCode Topics End-->
