@@ -15,8 +15,10 @@ var partitionString = function(s) {
         let char = s[R];
         freq[char] ? freq[char] += 1 : freq[char] = 1;
         if (freq[char] >= 2) {
-            L = R;
-            freq = {[char]: 1};
+            while (L !== R) {
+                freq[s[L]] -= 1;
+                L += 1;
+            }
             count += 1;
         };
     } 
