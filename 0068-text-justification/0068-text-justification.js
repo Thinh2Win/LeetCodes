@@ -38,10 +38,8 @@ function buildLine(arr, currLength, spaces, maxWidth) {
 
     let totalSpaces = maxWidth - currLength;
     let lengths = Math.floor(totalSpaces / (arr.length - 1));
-    console.log(totalSpaces, lengths)
     let remainder = totalSpaces - (lengths * (arr.length - 1));
     let strings = new Array(arr.length - 1).fill(lengths);
-    console.log(strings)
     for (let i = 0; i < remainder; i++) {
         strings[i] += 1;
     }
@@ -54,7 +52,6 @@ function buildLine(arr, currLength, spaces, maxWidth) {
     }
     // push final word 
     line.push(arr.at(-1));
-    console.log(line.join('').length, 'line length')
     return line.join('');
 }
 
