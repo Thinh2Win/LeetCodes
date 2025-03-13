@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
 | [1170-shortest-common-supersequence](https://github.com/Thinh2Win/LeetCodes/tree/master/1170-shortest-common-supersequence) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [2470-removing-stars-from-a-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2470-removing-stars-from-a-string) |
@@ -19,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
 | [0724-find-pivot-index](https://github.com/Thinh2Win/LeetCodes/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
@@ -67,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Thinh2Win/LeetCodes/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
