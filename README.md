@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
 | [0724-find-pivot-index](https://github.com/Thinh2Win/LeetCodes/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
@@ -151,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0783-search-in-a-binary-search-tree) |
 ## Graph
 |  |
