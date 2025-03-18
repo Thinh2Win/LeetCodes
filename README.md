@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Thinh2Win/LeetCodes/tree/master/0146-lru-cache) |
+| [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/Thinh2Win/LeetCodes/tree/master/0207-course-schedule) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 | [0871-keys-and-rooms](https://github.com/Thinh2Win/LeetCodes/tree/master/0871-keys-and-rooms) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -132,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/Thinh2Win/LeetCodes/tree/master/0207-course-schedule) |
+| [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 | [0871-keys-and-rooms](https://github.com/Thinh2Win/LeetCodes/tree/master/0871-keys-and-rooms) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
@@ -181,4 +184,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Thinh2Win/LeetCodes/tree/master/0207-course-schedule) |
+## Union Find
+|  |
+| ------- |
+| [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
+## Hash Function
+|  |
+| ------- |
+| [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 <!---LeetCode Topics End-->
