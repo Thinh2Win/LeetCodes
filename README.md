@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2551-apply-operations-to-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Thinh2Win/LeetCodes/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/Thinh2Win/LeetCodes/tree/master/2888-minimum-index-of-a-valid-split) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -52,12 +53,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Thinh2Win/LeetCodes/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/Thinh2Win/LeetCodes/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/Thinh2Win/LeetCodes/tree/master/2888-minimum-index-of-a-valid-split) |
 ## Counting
 |  |
 | ------- |
