@@ -68,8 +68,20 @@ var minimumIndex = function(nums) {
 
 function validLeft(windowLength, currElement) {
     return windowLength - currElement < currElement;
+    // valid if curr element is majority 
+    // all other nums = total elements - curr element count
+    // window length is total elements in the window 
+    // windowLength - currElement (all other nums) < curr element count means curr element is majority
 }
 
 function validRight(windowLength, numsLength, currElement, totalElement) {
     return numsLength - windowLength - (totalElement - currElement) < totalElement - currElement;
+    // same reasoning as left
+    // all other nums is our right window 
+    // right window = total length of nums - left window 
+    // to find dom elements left within right window = total element count - current element count from left window 
+    // that means all other nums in the right = right window - right dom elements 
+    // giving us numsLength - windowLength - (totalElement - currElement) 
+    // so if all other nums on the right is < curr element count on the right 
+    // the right is valid
 }
