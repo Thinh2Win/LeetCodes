@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
+| [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Thinh2Win/LeetCodes/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
 | [0969-number-of-recent-calls](https://github.com/Thinh2Win/LeetCodes/tree/master/0969-number-of-recent-calls) |
 | [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
+| [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 ## Queue
 |  |
 | ------- |
@@ -179,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
+| [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
 ## Doubly-Linked List
 |  |
@@ -213,4 +216,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
+## Ordered Set
+|  |
+| ------- |
+| [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 <!---LeetCode Topics End-->
