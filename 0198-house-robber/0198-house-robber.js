@@ -3,16 +3,14 @@
  * @return {number}
  */
 var rob = function(nums) {
-    if (nums.length <= 2) return Math.max(...nums)
-    let dp = new Array(nums.length).fill(0);
-    dp[nums.length - 1] = nums.at(-1);
-    dp[nums.length - 2] = nums.at(-2);
-    dp[nums.length - 3] = nums.at(-1) + nums.at(-3);
-    let max = Math.max(nums.at(-1), nums.at(-2), dp.at(-3));
-    if (nums.length === 3) return max;
-    for (let i = nums.length - 4; i >= 0; i--) {
-        dp[i] = Math.max(dp[i + 1], nums[i] + dp[i + 2], nums[i] + dp[i + 3]);
-        max = Math.max(max, dp[i]);
+    let n = nums.length;
+    if (n === 1) return nums[0];
+    let dp = new Array(n).fill(0);
+    dp[n - 1] = nums[n - 1];
+    dp[n - 2] = Math.max(nums[n - 1], nums[n - 2]);
+    dp.push(0);
+    for (let i = n - 3; i >= 0; i--) {
+        dp[i] = nums[i] + Math.max(dp[i + 2], dp[i + 3]);
     }
-    return max;
+    return Math.max(dp[0], dp[1]);
 };
