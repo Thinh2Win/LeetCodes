@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
 | [1170-shortest-common-supersequence](https://github.com/Thinh2Win/LeetCodes/tree/master/1170-shortest-common-supersequence) |
+| [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [2470-removing-stars-from-a-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
@@ -37,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1833-find-the-highest-altitude](https://github.com/Thinh2Win/LeetCodes/tree/master/1833-find-the-highest-altitude) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Thinh2Win/LeetCodes/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
@@ -70,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
+| [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Thinh2Win/LeetCodes/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -176,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0783-search-in-a-binary-search-tree) |
+| [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 ## Graph
 |  |
 | ------- |
@@ -192,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
+| [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
@@ -245,4 +250,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Thinh2Win/LeetCodes/tree/master/0062-unique-paths) |
+## Trie
+|  |
+| ------- |
+| [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 <!---LeetCode Topics End-->
