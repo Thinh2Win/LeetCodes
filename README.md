@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0062-unique-paths](https://github.com/Thinh2Win/LeetCodes/tree/master/0062-unique-paths) |
 | [0198-house-robber](https://github.com/Thinh2Win/LeetCodes/tree/master/0198-house-robber) |
+| [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [0747-min-cost-climbing-stairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0747-min-cost-climbing-stairs) |
 | [1170-shortest-common-supersequence](https://github.com/Thinh2Win/LeetCodes/tree/master/1170-shortest-common-supersequence) |
 | [1236-n-th-tribonacci-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1236-n-th-tribonacci-number) |
@@ -30,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/Thinh2Win/LeetCodes/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/0216-combination-sum-iii) |
+| [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [0724-find-pivot-index](https://github.com/Thinh2Win/LeetCodes/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0747-min-cost-climbing-stairs) |
@@ -72,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
+| [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
@@ -208,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
 ## Topological Sort
