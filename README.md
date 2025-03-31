@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Thinh2Win/LeetCodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0724-find-pivot-index](https://github.com/Thinh2Win/LeetCodes/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/Thinh2Win/LeetCodes/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0747-min-cost-climbing-stairs) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/Thinh2Win/LeetCodes/tree/master/0739-daily-temperatures) |
 | [2470-removing-stars-from-a-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2470-removing-stars-from-a-string) |
 ## Design
 |  |
@@ -261,4 +263,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/Thinh2Win/LeetCodes/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
