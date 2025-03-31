@@ -3,21 +3,17 @@
  * @return {number}
  */
 var findMinArrowShots = function(points) {
-    points.sort((a, b) => {
-        if (a[0] === b[0]) {
-            return a[1] - b[1];
-        } else {
-            return a[0] - b[0];
+    points.sort((a, b) => a[1] - b[1]);
+    
+    let e1 = points[0][1];
+    let arrows = 1;
+
+    for (let interval of points) {
+        let [s2, e2] = interval;
+        if (e1 < s2) {
+            arrows += 1;
+            e1 = e2;
         }
-    });
-    let balloons = [points[0]];
-    points.forEach(balloon => {
-        let curr = balloons.at(-1);
-        if (curr[1] >= balloon[0]) {
-            balloons[balloons.length - 1] = [balloon[0], Math.min(curr[1], balloon[1])];
-        } else {
-            balloons.push(balloon);
-        }
-    });
-    return balloons.length;
+    }
+    return arrows;
 };
