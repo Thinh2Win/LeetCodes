@@ -1,38 +1,48 @@
 
-class Trie {
-    constructor() {
-        this.root = {};
+var Trie = function() {
+    this.trie = {};
+};
+
+/** 
+ * @param {string} word
+ * @return {void}
+ */
+Trie.prototype.insert = function(word) {
+    let root = this.trie;
+    for (let i = 0; i < word.length; i++) {
+        let char = word[i];
+        if (!root[char]) root[char] = {isWord: false};
+        if (i === word.length - 1) root[char].isWord = true;
+        root = root[char];
     }
+};
 
-    insert(word) {
-        let node = this.root;
-        for (let c of word) {
-            if (!node[c]) node[c] = {};
-            node = node[c];
-        }
-        node.isWord = true;
+/** 
+ * @param {string} word
+ * @return {boolean}
+ */
+Trie.prototype.search = function(word) {
+    let root = this.trie;
+    for (let i = 0; i < word.length; i++) {
+        let char = word[i];
+        if (!root[char]) return false;
+        if (i === word.length - 1) return root[char].isWord;
+        root = root[char];
     }
+};
 
-    traverse(word) {
-        let node = this.root;
-        for (let c of word) {
-            node = node[c];
-            if (!node) return null;
-        }
-        return node;
+/** 
+ * @param {string} prefix
+ * @return {boolean}
+ */
+Trie.prototype.startsWith = function(prefix) {
+    let root = this.trie;
+    for (let char of prefix) {
+        if (!root[char]) return false;
+        root = root[char];
     }
-
-    search(word) {
-        let node = this.traverse(word);
-        return node !== null && node.isWord === true;
-    }
-
-    startsWith(prefix) {
-        return this.traverse(prefix) !== null;
-    }
-}
-
-
+    return true;
+};
 
 /** 
  * Your Trie object will be instantiated and called as such:
