@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2165-plates-between-candles](https://github.com/Thinh2Win/LeetCodes/tree/master/2165-plates-between-candles) |
 | [2262-solving-questions-with-brainpower](https://github.com/Thinh2Win/LeetCodes/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Thinh2Win/LeetCodes/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2354-minimum-health-to-beat-game](https://github.com/Thinh2Win/LeetCodes/tree/master/2354-minimum-health-to-beat-game) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2551-apply-operations-to-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2551-apply-operations-to-an-array) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
@@ -240,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Thinh2Win/LeetCodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0680-valid-palindrome-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0680-valid-palindrome-ii) |
+| [2354-minimum-health-to-beat-game](https://github.com/Thinh2Win/LeetCodes/tree/master/2354-minimum-health-to-beat-game) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
 ## Topological Sort
