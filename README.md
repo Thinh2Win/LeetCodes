@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
 | [0208-implement-trie-prefix-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0680-valid-palindrome-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0680-valid-palindrome-ii) |
+| [1078-remove-outermost-parentheses](https://github.com/Thinh2Win/LeetCodes/tree/master/1078-remove-outermost-parentheses) |
 | [1170-shortest-common-supersequence](https://github.com/Thinh2Win/LeetCodes/tree/master/1170-shortest-common-supersequence) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
@@ -133,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Thinh2Win/LeetCodes/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/Thinh2Win/LeetCodes/tree/master/0937-online-stock-span) |
+| [1078-remove-outermost-parentheses](https://github.com/Thinh2Win/LeetCodes/tree/master/1078-remove-outermost-parentheses) |
 | [2470-removing-stars-from-a-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2470-removing-stars-from-a-string) |
 ## Design
 |  |
