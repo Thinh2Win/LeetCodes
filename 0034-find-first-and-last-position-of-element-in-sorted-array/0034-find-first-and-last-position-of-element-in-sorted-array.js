@@ -4,30 +4,39 @@
  * @return {number[]}
  */
 var searchRange = function(nums, target) {
-    let L = 0; 
-    let R = nums.length; 
-    let answer = [-1, -1]
+    let leftIdx = searchLeft(nums, target);
+    let rightIdx = searchRight(nums, target);
+    let answer = [-1, -1];
+    if (nums[leftIdx] === target) answer[0] = leftIdx;
+    if (nums[rightIdx] === target) answer[1] = rightIdx;
+    return answer;
+};
+
+function searchLeft(nums, target) {
+    let L = 0;
+    let R = nums.length;
+
     while (L <= R) {
         let mp = Math.floor((R - L) / 2 + L);
-
-        if (nums[mp] >= target) {
+        if (target <= nums[mp]) {
             R = mp - 1;
         } else {
-            L = mp + 1
+            L = mp + 1;
         }
     }
-    if (nums[L] !== target) return answer; 
-    answer[0] = L;
-    R = nums.length; 
+    return L;
+}
+function searchRight(nums, target) {
+    let L = 0;
+    let R = nums.length;
+
     while (L <= R) {
         let mp = Math.floor((R - L) / 2 + L);
-
-        if (nums[mp] <= target) {
+        if (target >= nums[mp]) {
             L = mp + 1;
         } else {
             R = mp - 1;
         }
     }
-    answer[1] = nums[R] === target ? R : answer[0];
-    return answer;
-};
+    return R;
+}
