@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1656-count-good-triplets](https://github.com/Thinh2Win/LeetCodes/tree/master/1656-count-good-triplets) |
+| [1762-furthest-building-you-can-reach](https://github.com/Thinh2Win/LeetCodes/tree/master/1762-furthest-building-you-can-reach) |
 | [1833-find-the-highest-altitude](https://github.com/Thinh2Win/LeetCodes/tree/master/1833-find-the-highest-altitude) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Thinh2Win/LeetCodes/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2165-plates-between-candles](https://github.com/Thinh2Win/LeetCodes/tree/master/2165-plates-between-candles) |
@@ -269,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Thinh2Win/LeetCodes/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
+| [1762-furthest-building-you-can-reach](https://github.com/Thinh2Win/LeetCodes/tree/master/1762-furthest-building-you-can-reach) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
@@ -284,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Thinh2Win/LeetCodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0680-valid-palindrome-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
+| [1762-furthest-building-you-can-reach](https://github.com/Thinh2Win/LeetCodes/tree/master/1762-furthest-building-you-can-reach) |
 | [2354-minimum-health-to-beat-game](https://github.com/Thinh2Win/LeetCodes/tree/master/2354-minimum-health-to-beat-game) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
