@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2354-minimum-health-to-beat-game](https://github.com/Thinh2Win/LeetCodes/tree/master/2354-minimum-health-to-beat-game) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2551-apply-operations-to-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2551-apply-operations-to-an-array) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Thinh2Win/LeetCodes/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Thinh2Win/LeetCodes/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Thinh2Win/LeetCodes/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Heap (Priority Queue)
 |  |
