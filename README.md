@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1833-find-the-highest-altitude](https://github.com/Thinh2Win/LeetCodes/tree/master/1833-find-the-highest-altitude) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Thinh2Win/LeetCodes/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2165-plates-between-candles](https://github.com/Thinh2Win/LeetCodes/tree/master/2165-plates-between-candles) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2262-solving-questions-with-brainpower](https://github.com/Thinh2Win/LeetCodes/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Thinh2Win/LeetCodes/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -279,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0940-fruit-into-baskets](https://github.com/Thinh2Win/LeetCodes/tree/master/0940-fruit-into-baskets) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Heap (Priority Queue)
