@@ -31,7 +31,6 @@ var longestSubarray = function(nums, limit) {
         minQ.enqueue(num);
 
         while (Math.abs(maxQ.front() - minQ.front()) > limit) {
-            console.log(maxQ.front(), minQ.front())
             let numL = nums[L];
             freq[numL] -= 1;
             while (freq[maxQ.front()] === 0) maxQ.dequeue();
