@@ -6,9 +6,7 @@ var arrayPairSum = function(nums) {
     nums.sort((a,b) => b - a);
     let answer = 0;
     for (let i = 1; i < nums.length; i += 2) {
-        let prev = nums[i - 1];
-        let curr = nums[i];
-        answer += Math.min(prev, curr);
+       answer += nums[i]; // usually we would find the min of the pairs but since we sorted we can just add the second
     }
     return answer;
 };
