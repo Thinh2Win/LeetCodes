@@ -208,6 +208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0024-swap-nodes-in-pairs) |
 | [0141-linked-list-cycle](https://github.com/Thinh2Win/LeetCodes/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Thinh2Win/LeetCodes/tree/master/0146-lru-cache) |
 | [0328-odd-even-linked-list](https://github.com/Thinh2Win/LeetCodes/tree/master/0328-odd-even-linked-list) |
@@ -403,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/Thinh2Win/LeetCodes/tree/master/0050-powx-n) |
 ## Number Theory
 |  |
