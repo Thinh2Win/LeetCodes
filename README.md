@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Thinh2Win/LeetCodes/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1656-count-good-triplets](https://github.com/Thinh2Win/LeetCodes/tree/master/1656-count-good-triplets) |
+| [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/Thinh2Win/LeetCodes/tree/master/1762-furthest-building-you-can-reach) |
 | [1833-find-the-highest-altitude](https://github.com/Thinh2Win/LeetCodes/tree/master/1833-find-the-highest-altitude) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Thinh2Win/LeetCodes/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -186,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
+| [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 ## Stack
 |  |
@@ -256,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -269,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -302,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0540-single-element-in-a-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0540-single-element-in-a-sorted-array) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0783-search-in-a-binary-search-tree) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
+| [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [2165-plates-between-candles](https://github.com/Thinh2Win/LeetCodes/tree/master/2165-plates-between-candles) |
 ## Graph
 |  |
@@ -332,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Thinh2Win/LeetCodes/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/Thinh2Win/LeetCodes/tree/master/1762-furthest-building-you-can-reach) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
@@ -364,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Thinh2Win/LeetCodes/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
+| [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 ## Hash Function
 |  |
 | ------- |
