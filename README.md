@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/Thinh2Win/LeetCodes/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/Thinh2Win/LeetCodes/tree/master/0943-sum-of-subarray-minimums) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
+| [1028-interval-list-intersections](https://github.com/Thinh2Win/LeetCodes/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
@@ -174,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
 | [0680-valid-palindrome-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0680-valid-palindrome-ii) |
 | [0696-count-binary-substrings](https://github.com/Thinh2Win/LeetCodes/tree/master/0696-count-binary-substrings) |
+| [1028-interval-list-intersections](https://github.com/Thinh2Win/LeetCodes/tree/master/1028-interval-list-intersections) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Thinh2Win/LeetCodes/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2551-apply-operations-to-an-array) |
@@ -467,4 +469,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/Thinh2Win/LeetCodes/tree/master/0561-array-partition) |
+## Line Sweep
+|  |
+| ------- |
+| [1028-interval-list-intersections](https://github.com/Thinh2Win/LeetCodes/tree/master/1028-interval-list-intersections) |
 <!---LeetCode Topics End-->
