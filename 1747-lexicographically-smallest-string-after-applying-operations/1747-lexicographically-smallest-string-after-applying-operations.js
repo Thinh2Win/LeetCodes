@@ -9,18 +9,17 @@ var findLexSmallestString = function(s, a, b) {
         use a min heap
 
     */
-    const minQ = new MinPriorityQueue();
-    minQ.enqueue(s);
+    const minQ = [s];
     let min = s;
     let visited = new Set();
-    while (minQ.size()) {
-        let string = minQ.dequeue();
+    while (minQ.length) {
+        let string = minQ.pop();
         min = min < string ? min : string;
         visited.add(string);
         let opA = applyA(string, a);
         let opB = applyB(string, b);
-        if (!visited.has(opA)) minQ.enqueue(opA);
-        if (!visited.has(opB)) minQ.enqueue(opB);
+        if (!visited.has(opA)) minQ.push(opA);
+        if (!visited.has(opB)) minQ.push(opB);
     }
     return min;
 };  
