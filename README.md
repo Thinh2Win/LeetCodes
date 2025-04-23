@@ -132,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1176-design-a-leaderboard](https://github.com/Thinh2Win/LeetCodes/tree/master/1176-design-a-leaderboard) |
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1500-count-largest-group](https://github.com/Thinh2Win/LeetCodes/tree/master/1500-count-largest-group) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
@@ -308,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/Thinh2Win/LeetCodes/tree/master/0062-unique-paths) |
 | [0797-rabbits-in-forest](https://github.com/Thinh2Win/LeetCodes/tree/master/0797-rabbits-in-forest) |
 | [1236-n-th-tribonacci-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1236-n-th-tribonacci-number) |
+| [1500-count-largest-group](https://github.com/Thinh2Win/LeetCodes/tree/master/1500-count-largest-group) |
 | [1585-the-kth-factor-of-n](https://github.com/Thinh2Win/LeetCodes/tree/master/1585-the-kth-factor-of-n) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Thinh2Win/LeetCodes/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Thinh2Win/LeetCodes/tree/master/1993-sum-of-all-subset-xor-totals) |
