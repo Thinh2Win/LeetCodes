@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/Thinh2Win/LeetCodes/tree/master/0198-house-robber) |
 | [0337-house-robber-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/0337-house-robber-iii) |
 | [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
+| [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 | [0747-min-cost-climbing-stairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/Thinh2Win/LeetCodes/tree/master/0943-sum-of-subarray-minimums) |
@@ -57,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Thinh2Win/LeetCodes/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Thinh2Win/LeetCodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 | [0496-next-greater-element-i](https://github.com/Thinh2Win/LeetCodes/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0540-single-element-in-a-sorted-array) |
@@ -307,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0007-reverse-integer](https://github.com/Thinh2Win/LeetCodes/tree/master/0007-reverse-integer) |
 | [0050-powx-n](https://github.com/Thinh2Win/LeetCodes/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/Thinh2Win/LeetCodes/tree/master/0062-unique-paths) |
+| [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 | [0797-rabbits-in-forest](https://github.com/Thinh2Win/LeetCodes/tree/master/0797-rabbits-in-forest) |
 | [1236-n-th-tribonacci-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1236-n-th-tribonacci-number) |
 | [1500-count-largest-group](https://github.com/Thinh2Win/LeetCodes/tree/master/1500-count-largest-group) |
@@ -459,6 +462,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/Thinh2Win/LeetCodes/tree/master/0050-powx-n) |
+| [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 ## Number Theory
 |  |
 | ------- |
@@ -475,4 +479,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/Thinh2Win/LeetCodes/tree/master/1028-interval-list-intersections) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
