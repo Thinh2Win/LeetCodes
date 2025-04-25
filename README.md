@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/Thinh2Win/LeetCodes/tree/master/0072-edit-distance) |
 | [0208-implement-trie-prefix-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
+| [0243-shortest-word-distance](https://github.com/Thinh2Win/LeetCodes/tree/master/0243-shortest-word-distance) |
 | [0402-remove-k-digits](https://github.com/Thinh2Win/LeetCodes/tree/master/0402-remove-k-digits) |
 | [0680-valid-palindrome-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0680-valid-palindrome-ii) |
 | [0696-count-binary-substrings](https://github.com/Thinh2Win/LeetCodes/tree/master/0696-count-binary-substrings) |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/Thinh2Win/LeetCodes/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/0216-combination-sum-iii) |
+| [0243-shortest-word-distance](https://github.com/Thinh2Win/LeetCodes/tree/master/0243-shortest-word-distance) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Thinh2Win/LeetCodes/tree/master/0373-find-k-pairs-with-smallest-sums) |
