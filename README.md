@@ -321,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1585-the-kth-factor-of-n](https://github.com/Thinh2Win/LeetCodes/tree/master/1585-the-kth-factor-of-n) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Thinh2Win/LeetCodes/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Thinh2Win/LeetCodes/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2050-count-good-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/2050-count-good-numbers) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Thinh2Win/LeetCodes/tree/master/2649-count-total-number-of-colored-cells) |
 | [2998-count-symmetric-integers](https://github.com/Thinh2Win/LeetCodes/tree/master/2998-count-symmetric-integers) |
@@ -469,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0024-swap-nodes-in-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/Thinh2Win/LeetCodes/tree/master/0050-powx-n) |
 | [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
+| [2050-count-good-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/2050-count-good-numbers) |
 ## Number Theory
 |  |
 | ------- |
