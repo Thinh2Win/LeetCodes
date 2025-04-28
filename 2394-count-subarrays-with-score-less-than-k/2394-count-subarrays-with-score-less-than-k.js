@@ -23,22 +23,17 @@ var countSubarrays = function(nums, k) {
 
     */
 
-    let extraLeft = 0;
     let L = 0;
-    let R = 0;
     let count = 0;
     let windowSum = 0;
-    for (R = 0; R < nums.length; R++) {
+
+    for (let R = 0; R < nums.length; R++) {
         windowSum += nums[R];
-        if (windowSum * (R - L + 1) >= k) {
-            while(windowSum * (R - L + 1) >= k) {
-                windowSum -= nums[L];
-                L += 1;
-                extraLeft -= 1;
-            }
+        while(windowSum * (R - L + 1) >= k) {
+            windowSum -= nums[L];
+            L += 1;
         }
-        extraLeft += 1;
-        count += extraLeft; 
+        count += (R - L + 1); 
     }
     return count;
 };
