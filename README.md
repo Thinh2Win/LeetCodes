@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2470-removing-stars-from-a-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -122,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Thinh2Win/LeetCodes/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Thinh2Win/LeetCodes/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
+| [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -170,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Thinh2Win/LeetCodes/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Thinh2Win/LeetCodes/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
+| [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Sorting
 |  |
 | ------- |
@@ -299,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Thinh2Win/LeetCodes/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
+| [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -315,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Thinh2Win/LeetCodes/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
+| [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Binary Tree
 |  |
 | ------- |
@@ -365,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0871-keys-and-rooms](https://github.com/Thinh2Win/LeetCodes/tree/master/0871-keys-and-rooms) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
+| [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Sliding Window
 |  |
 | ------- |
@@ -419,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Thinh2Win/LeetCodes/tree/master/0207-course-schedule) |
+| [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Union Find
 |  |
 | ------- |
