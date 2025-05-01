@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Thinh2Win/LeetCodes/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Thinh2Win/LeetCodes/tree/master/0018-4sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Thinh2Win/LeetCodes/tree/master/0053-maximum-subarray) |
@@ -178,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Thinh2Win/LeetCodes/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Thinh2Win/LeetCodes/tree/master/0018-4sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
@@ -200,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Thinh2Win/LeetCodes/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Thinh2Win/LeetCodes/tree/master/0018-4sum) |
 | [0141-linked-list-cycle](https://github.com/Thinh2Win/LeetCodes/tree/master/0141-linked-list-cycle) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
