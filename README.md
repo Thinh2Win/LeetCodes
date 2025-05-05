@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/Thinh2Win/LeetCodes/tree/master/0311-sparse-matrix-multiplication) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0353-design-snake-game](https://github.com/Thinh2Win/LeetCodes/tree/master/0353-design-snake-game) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Thinh2Win/LeetCodes/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Thinh2Win/LeetCodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -151,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0311-sparse-matrix-multiplication](https://github.com/Thinh2Win/LeetCodes/tree/master/0311-sparse-matrix-multiplication) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0353-design-snake-game](https://github.com/Thinh2Win/LeetCodes/tree/master/0353-design-snake-game) |
 | [0496-next-greater-element-i](https://github.com/Thinh2Win/LeetCodes/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0560-subarray-sum-equals-k) |
 | [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
@@ -224,6 +226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
+| [0353-design-snake-game](https://github.com/Thinh2Win/LeetCodes/tree/master/0353-design-snake-game) |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Thinh2Win/LeetCodes/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -260,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/Thinh2Win/LeetCodes/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
+| [0353-design-snake-game](https://github.com/Thinh2Win/LeetCodes/tree/master/0353-design-snake-game) |
 | [0937-online-stock-span](https://github.com/Thinh2Win/LeetCodes/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/Thinh2Win/LeetCodes/tree/master/0969-number-of-recent-calls) |
 | [1176-design-a-leaderboard](https://github.com/Thinh2Win/LeetCodes/tree/master/1176-design-a-leaderboard) |
@@ -268,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0353-design-snake-game](https://github.com/Thinh2Win/LeetCodes/tree/master/0353-design-snake-game) |
 | [0969-number-of-recent-calls](https://github.com/Thinh2Win/LeetCodes/tree/master/0969-number-of-recent-calls) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Thinh2Win/LeetCodes/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Data Stream
