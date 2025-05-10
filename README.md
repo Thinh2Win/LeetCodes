@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2915-count-of-interesting-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/2915-count-of-interesting-subarrays) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Thinh2Win/LeetCodes/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Thinh2Win/LeetCodes/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Thinh2Win/LeetCodes/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -460,6 +461,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2354-minimum-health-to-beat-game](https://github.com/Thinh2Win/LeetCodes/tree/master/2354-minimum-health-to-beat-game) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [2681-put-marbles-in-bags](https://github.com/Thinh2Win/LeetCodes/tree/master/2681-put-marbles-in-bags) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Thinh2Win/LeetCodes/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Topological Sort
 |  |
