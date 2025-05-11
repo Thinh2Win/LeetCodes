@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1108-analyze-user-website-visit-pattern](https://github.com/Thinh2Win/LeetCodes/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1138-grumpy-bookstore-owner](https://github.com/Thinh2Win/LeetCodes/tree/master/1138-grumpy-bookstore-owner) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1293-three-consecutive-odds](https://github.com/Thinh2Win/LeetCodes/tree/master/1293-three-consecutive-odds) |
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
 | [1382-calculate-amount-paid-in-taxes](https://github.com/Thinh2Win/LeetCodes/tree/master/1382-calculate-amount-paid-in-taxes) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
