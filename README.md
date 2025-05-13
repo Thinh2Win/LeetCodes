@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2470-removing-stars-from-a-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Dynamic Programming
 |  |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1236-n-th-tribonacci-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1236-n-th-tribonacci-number) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [2262-solving-questions-with-brainpower](https://github.com/Thinh2Win/LeetCodes/tree/master/2262-solving-questions-with-brainpower) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Array
 |  |
@@ -190,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2915-count-of-interesting-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/2915-count-of-interesting-subarrays) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Thinh2Win/LeetCodes/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Thinh2Win/LeetCodes/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
@@ -218,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/Thinh2Win/LeetCodes/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -393,6 +397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2383-add-two-integers](https://github.com/Thinh2Win/LeetCodes/tree/master/2383-add-two-integers) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Thinh2Win/LeetCodes/tree/master/2649-count-total-number-of-colored-cells) |
 | [2998-count-symmetric-integers](https://github.com/Thinh2Win/LeetCodes/tree/master/2998-count-symmetric-integers) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Binary Search Tree
 |  |
 | ------- |
