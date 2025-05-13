@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 | [0496-next-greater-element-i](https://github.com/Thinh2Win/LeetCodes/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0503-next-greater-element-ii) |
+| [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0518-coin-change-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0560-subarray-sum-equals-k) |
@@ -255,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/Thinh2Win/LeetCodes/tree/master/0311-sparse-matrix-multiplication) |
+| [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
@@ -332,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Thinh2Win/LeetCodes/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0337-house-robber-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/0337-house-robber-iii) |
+| [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/Thinh2Win/LeetCodes/tree/master/0547-number-of-provinces) |
 | [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -354,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/Thinh2Win/LeetCodes/tree/master/0207-course-schedule) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Thinh2Win/LeetCodes/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/Thinh2Win/LeetCodes/tree/master/0547-number-of-provinces) |
 | [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -418,6 +422,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/Thinh2Win/LeetCodes/tree/master/0207-course-schedule) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Thinh2Win/LeetCodes/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/Thinh2Win/LeetCodes/tree/master/0547-number-of-provinces) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/Thinh2Win/LeetCodes/tree/master/0813-all-paths-from-source-to-target) |
@@ -450,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Thinh2Win/LeetCodes/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/Thinh2Win/LeetCodes/tree/master/1325-path-with-maximum-probability) |
@@ -504,6 +510,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 |  |
 | ------- |
+| [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/Thinh2Win/LeetCodes/tree/master/1325-path-with-maximum-probability) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
