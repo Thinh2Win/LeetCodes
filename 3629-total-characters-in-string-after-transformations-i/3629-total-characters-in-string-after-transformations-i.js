@@ -5,26 +5,25 @@
  */
 var lengthAfterTransformations = function(s, t) {
     const MOD = 1e9 + 7;
-    let count = new Array(26).fill(0);
+    const count = new Array(26).fill(0);
+    let z = 25; 
+    let answer = s.length;
 
-    // Initialize count array from string
-    for (let char of s) {
-        count[char.charCodeAt(0) - 97]++;
+    for (const char of s) {
+        count[char.charCodeAt(0) - 'a'.charCodeAt(0)] += 1;
     }
 
-    for (let i = 0; i < t; i++) {
-        let next = new Array(26).fill(0);
-        for (let j = 0; j < 26; j++) {
-            if (j === 25) { // 'z'
-                next[0] = (next[0] + count[25]) % MOD; // 'a'
-                next[1] = (next[1] + count[25]) % MOD; // 'b'
-            } else {
-                next[j + 1] = (next[j + 1] + count[j]) % MOD;
-            }
-        }
-        count = next;
+    // loop while t is greater than 0
+    while (t) {
+        // add z count to answer 
+        answer = (count[z] + answer) % MOD;
+        // since z creates ab, we increment the count of the letter 26 characters away from current 'z'
+        count[(z + 1) % 26] = (count[(z + 1) % 26] + count[z]) % MOD;
+        // move z in a cyclic order
+        z = (z + 25) % 26
+        // decrement t 
+        t -= 1;
     }
 
-    // Total characters after t transformations
-    return count.reduce((sum, c) => (sum + c) % MOD, 0);
+    return answer;
 };
