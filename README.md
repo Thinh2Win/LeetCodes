@@ -343,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/Thinh2Win/LeetCodes/tree/master/1492-time-needed-to-inform-all-employees) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Thinh2Win/LeetCodes/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Thinh2Win/LeetCodes/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
@@ -365,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/Thinh2Win/LeetCodes/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/Thinh2Win/LeetCodes/tree/master/1492-time-needed-to-inform-all-employees) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Thinh2Win/LeetCodes/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Thinh2Win/LeetCodes/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
@@ -423,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/Thinh2Win/LeetCodes/tree/master/0871-keys-and-rooms) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/Thinh2Win/LeetCodes/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1325-path-with-maximum-probability](https://github.com/Thinh2Win/LeetCodes/tree/master/1325-path-with-maximum-probability) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Thinh2Win/LeetCodes/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
