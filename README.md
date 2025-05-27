@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Thinh2Win/LeetCodes/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [2165-plates-between-candles](https://github.com/Thinh2Win/LeetCodes/tree/master/2165-plates-between-candles) |
+| [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Thinh2Win/LeetCodes/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2470-removing-stars-from-a-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -117,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2048-build-array-from-permutation](https://github.com/Thinh2Win/LeetCodes/tree/master/2048-build-array-from-permutation) |
 | [2165-plates-between-candles](https://github.com/Thinh2Win/LeetCodes/tree/master/2165-plates-between-candles) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/2215-finding-3-digit-even-numbers) |
+| [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Thinh2Win/LeetCodes/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2249-count-the-hidden-sequences](https://github.com/Thinh2Win/LeetCodes/tree/master/2249-count-the-hidden-sequences) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2262-solving-questions-with-brainpower](https://github.com/Thinh2Win/LeetCodes/tree/master/2262-solving-questions-with-brainpower) |
@@ -187,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/2215-finding-3-digit-even-numbers) |
+| [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Thinh2Win/LeetCodes/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/Thinh2Win/LeetCodes/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
@@ -226,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
+| [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Thinh2Win/LeetCodes/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/Thinh2Win/LeetCodes/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Two Pointers
@@ -489,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Thinh2Win/LeetCodes/tree/master/0797-rabbits-in-forest) |
 | [1762-furthest-building-you-can-reach](https://github.com/Thinh2Win/LeetCodes/tree/master/1762-furthest-building-you-can-reach) |
+| [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Thinh2Win/LeetCodes/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/Thinh2Win/LeetCodes/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2354-minimum-health-to-beat-game](https://github.com/Thinh2Win/LeetCodes/tree/master/2354-minimum-health-to-beat-game) |
 | [2487-optimal-partition-of-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2487-optimal-partition-of-string) |
