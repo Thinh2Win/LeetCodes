@@ -438,6 +438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2998-count-symmetric-integers](https://github.com/Thinh2Win/LeetCodes/tree/master/2998-count-symmetric-integers) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Thinh2Win/LeetCodes/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3201-distribute-candies-among-children-ii) |
+| [3216-distribute-candies-among-children-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/3216-distribute-candies-among-children-iii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Binary Search Tree
 |  |
@@ -584,6 +585,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Thinh2Win/LeetCodes/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3201-distribute-candies-among-children-ii) |
+| [3216-distribute-candies-among-children-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/3216-distribute-candies-among-children-iii) |
 ## Trie
 |  |
 | ------- |
