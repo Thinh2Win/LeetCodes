@@ -158,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3639-zero-array-transformation-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3639-zero-array-transformation-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Thinh2Win/LeetCodes/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Thinh2Win/LeetCodes/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Thinh2Win/LeetCodes/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Prefix Sum
