@@ -476,6 +476,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0813-all-paths-from-source-to-target](https://github.com/Thinh2Win/LeetCodes/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Thinh2Win/LeetCodes/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/Thinh2Win/LeetCodes/tree/master/0871-keys-and-rooms) |
+| [1100-connecting-cities-with-minimum-cost](https://github.com/Thinh2Win/LeetCodes/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/Thinh2Win/LeetCodes/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1325-path-with-maximum-probability](https://github.com/Thinh2Win/LeetCodes/tree/master/1325-path-with-maximum-probability) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Thinh2Win/LeetCodes/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -507,6 +508,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1100-connecting-cities-with-minimum-cost](https://github.com/Thinh2Win/LeetCodes/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1325-path-with-maximum-probability](https://github.com/Thinh2Win/LeetCodes/tree/master/1325-path-with-maximum-probability) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Thinh2Win/LeetCodes/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -556,6 +558,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Thinh2Win/LeetCodes/tree/master/0547-number-of-provinces) |
 | [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Thinh2Win/LeetCodes/tree/master/1058-lexicographically-smallest-equivalent-string) |
+| [1100-connecting-cities-with-minimum-cost](https://github.com/Thinh2Win/LeetCodes/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 ## Hash Function
 |  |
@@ -659,4 +662,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1100-connecting-cities-with-minimum-cost](https://github.com/Thinh2Win/LeetCodes/tree/master/1100-connecting-cities-with-minimum-cost) |
 <!---LeetCode Topics End-->
