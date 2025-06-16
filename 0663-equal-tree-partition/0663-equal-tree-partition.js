@@ -11,32 +11,14 @@
  * @return {boolean}
  */
 var checkEqualTree = function(root) {
-    /*
-        traverse tree to get total sum
-        post order traversal 
-            - sum left, right, and curr node 
-            - if the diff of total - sum === sum we can split the tree 
-    */
-
-    let total = getTotal(root);
-    let canSplit = false;
-    const DFS = (node) => {
-        if (canSplit) return;
+    const DFS = (node, map) => {
         if (!node) return 0;
-        let left = DFS(node.left);
-        let right = DFS(node.right);
-        let sum = node.val + left + right;
-        let diff = total - sum;
-        if (diff === sum && node !== root) canSplit = true;
+        let sum = node.val + DFS(node.left, map) + DFS(node.right, map);
+        map[sum] = true;
         return sum;
     }
-    DFS(root);
-    return canSplit; 
-};
+    let map = {};
+    let rootSum = root.val + DFS(root.left, map) + DFS(root.right, map);
 
-function getTotal(root) {
-    if (!root) return 0;
-    let left = getTotal(root.left);
-    let right = getTotal(root.right);
-    return root.val + left + right;
-}
+    return rootSum % 2 === 0 && map[rootSum / 2] !== undefined;
+};
