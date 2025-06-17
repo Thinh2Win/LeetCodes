@@ -3,46 +3,63 @@
  * @return {string[][]}
  */
 var accountsMerge = function(accounts) {
-    let answer = [];
-    let adjList = new Array(accounts.length).fill(0).map(zero => []);
-    let map = {};
-    accounts.forEach((account, idx) => {
-        for (let i = 1; i < account.length; i++) {
-            let email = account[i];
-            if (map[email] !== undefined) {
-                let mergeIdx = map[email];
-                adjList[mergeIdx].push(idx);
-                adjList[idx].push(mergeIdx);
-            } else {
-                map[email] = idx;
-            }
-        }
-    });
-    let seen = {};
-    const DFS = (idx, set) => {
-        if (seen[idx]) return;
-        accounts[idx].forEach(email => {
-            set.add(email);
+    /*
+        map emails by accounts idx 
+        - key: value -> email: [idx1, idx2, ...]
+        - create adj list
+        - DFS through adjList keeping track of visited idxs, and merge the accounts
+    */
+
+    const emailMap = {};
+
+    for (let i = 0; i < accounts.length; i++) {
+        let [name, ...emails] = accounts[i];
+        emails.forEach(email => {
+            if (!emailMap[email]) emailMap[email] = [];
+            emailMap[email].push(i);
         });
-        seen[idx] = true;
-        for (let i = 0; i < adjList[idx].length; i++) {
-            if (seen[adjList[idx][i]]) continue;
-            DFS(adjList[idx][i], set);
+    }
+
+    const parents = new Array(accounts.length).fill(0).map((_, idx) => idx);
+
+    function find(node) {
+        if (node !== parents[node]) {
+            parents[node] = find(parents[node]);
         }
-        return set;
-    };
-    for (let i = 0; i < adjList.length; i++) {
-        if (seen[i]) continue;
-        if (adjList[i].length === 0) {
-            accounts[i].sort();
-            answer.push(accounts[i]);
-        } else {
-            let merged = [...DFS(i, new Set())];
-            let name = merged.shift();
-            merged.sort();
-            merged.unshift(name);
-            answer.push(merged);
+        return parents[node];
+    }
+
+    function union(n1, n2) {
+        let p1 = find(n1);
+        let p2 = find(n2);
+        if (p1 !== p2) {
+            if (p1 < p2) parents[p2] = p1
+            else parents[p1] = p2;
         }
     }
+
+    for (let email in emailMap) {
+        let nodes = emailMap[email];
+        for (let i = 1; i < nodes.length; i++) {
+            union(nodes[0], nodes[i]);
+        }
+    }
+
+    for (let i = 0; i < parents.length; i++) {
+        find(i);
+    }
+
+    const container = Array.from({length: accounts.length}, () => new Set());
+    for (let i = 0; i < parents.length; i++) {
+        let account = accounts[i];
+        let mergeAccount = container[parents[i]];
+        account.forEach(email => mergeAccount.add(email));
+    }
+    let answer = container.map(acc => Array.from(acc)).filter(acc => acc.length);
+    answer.forEach(acc => {
+        let name = acc.shift();
+        acc.sort();
+        acc.unshift(name);
+    })
     return answer;
 };
