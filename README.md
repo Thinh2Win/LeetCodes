@@ -494,6 +494,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1325-path-with-maximum-probability](https://github.com/Thinh2Win/LeetCodes/tree/master/1325-path-with-maximum-probability) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Thinh2Win/LeetCodes/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Thinh2Win/LeetCodes/tree/master/1706-min-cost-to-connect-all-points) |
+| [1738-maximal-network-rank](https://github.com/Thinh2Win/LeetCodes/tree/master/1738-maximal-network-rank) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Thinh2Win/LeetCodes/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2880-find-the-closest-marked-node](https://github.com/Thinh2Win/LeetCodes/tree/master/2880-find-the-closest-marked-node) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
