@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0119-pascals-triangle-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0119-pascals-triangle-ii) |
 | [0135-candy](https://github.com/Thinh2Win/LeetCodes/tree/master/0135-candy) |
 | [0198-house-robber](https://github.com/Thinh2Win/LeetCodes/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/0216-combination-sum-iii) |
 | [0243-shortest-word-distance](https://github.com/Thinh2Win/LeetCodes/tree/master/0243-shortest-word-distance) |
@@ -295,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0200-number-of-islands) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/Thinh2Win/LeetCodes/tree/master/0311-sparse-matrix-multiplication) |
 | [0361-bomb-enemy](https://github.com/Thinh2Win/LeetCodes/tree/master/0361-bomb-enemy) |
@@ -383,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Thinh2Win/LeetCodes/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0210-course-schedule-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -416,6 +419,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Thinh2Win/LeetCodes/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0261-graph-valid-tree) |
@@ -589,6 +593,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Thinh2Win/LeetCodes/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/Thinh2Win/LeetCodes/tree/master/0547-number-of-provinces) |
