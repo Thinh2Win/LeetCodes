@@ -123,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Thinh2Win/LeetCodes/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1428-jump-game-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/1428-jump-game-iii) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Thinh2Win/LeetCodes/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1656-count-good-triplets](https://github.com/Thinh2Win/LeetCodes/tree/master/1656-count-good-triplets) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Thinh2Win/LeetCodes/tree/master/1706-min-cost-to-connect-all-points) |
@@ -398,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1428-jump-game-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/1428-jump-game-iii) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/Thinh2Win/LeetCodes/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Thinh2Win/LeetCodes/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -431,6 +433,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/Thinh2Win/LeetCodes/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1428-jump-game-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/1428-jump-game-iii) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/Thinh2Win/LeetCodes/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Thinh2Win/LeetCodes/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Thinh2Win/LeetCodes/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
