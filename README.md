@@ -112,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1028-interval-list-intersections](https://github.com/Thinh2Win/LeetCodes/tree/master/1028-interval-list-intersections) |
 | [1032-satisfiability-of-equality-equations](https://github.com/Thinh2Win/LeetCodes/tree/master/1032-satisfiability-of-equality-equations) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Thinh2Win/LeetCodes/tree/master/1073-number-of-enclaves) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/Thinh2Win/LeetCodes/tree/master/1108-analyze-user-website-visit-pattern) |
@@ -305,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0945-snakes-and-ladders](https://github.com/Thinh2Win/LeetCodes/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Thinh2Win/LeetCodes/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Thinh2Win/LeetCodes/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -404,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/Thinh2Win/LeetCodes/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
+| [1073-number-of-enclaves](https://github.com/Thinh2Win/LeetCodes/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1428-jump-game-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/1428-jump-game-iii) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -438,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0945-snakes-and-ladders](https://github.com/Thinh2Win/LeetCodes/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Thinh2Win/LeetCodes/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/Thinh2Win/LeetCodes/tree/master/1229-shortest-path-with-alternating-colors) |
@@ -601,6 +605,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/Thinh2Win/LeetCodes/tree/master/0721-accounts-merge) |
 | [1032-satisfiability-of-equality-equations](https://github.com/Thinh2Win/LeetCodes/tree/master/1032-satisfiability-of-equality-equations) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Thinh2Win/LeetCodes/tree/master/1058-lexicographically-smallest-equivalent-string) |
+| [1073-number-of-enclaves](https://github.com/Thinh2Win/LeetCodes/tree/master/1073-number-of-enclaves) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/Thinh2Win/LeetCodes/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Thinh2Win/LeetCodes/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
