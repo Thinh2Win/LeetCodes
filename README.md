@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 | [0518-coin-change-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/0542-01-matrix) |
 | [0747-min-cost-climbing-stairs](https://github.com/Thinh2Win/LeetCodes/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Thinh2Win/LeetCodes/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/Thinh2Win/LeetCodes/tree/master/0806-domino-and-tromino-tiling) |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
 | [0518-coin-change-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/Thinh2Win/LeetCodes/tree/master/0561-array-partition) |
 | [0721-accounts-merge](https://github.com/Thinh2Win/LeetCodes/tree/master/0721-accounts-merge) |
@@ -297,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0311-sparse-matrix-multiplication](https://github.com/Thinh2Win/LeetCodes/tree/master/0311-sparse-matrix-multiplication) |
 | [0361-bomb-enemy](https://github.com/Thinh2Win/LeetCodes/tree/master/0361-bomb-enemy) |
 | [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
+| [0542-01-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/0542-01-matrix) |
 | [0945-snakes-and-ladders](https://github.com/Thinh2Win/LeetCodes/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
@@ -419,6 +422,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Thinh2Win/LeetCodes/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
+| [0542-01-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Thinh2Win/LeetCodes/tree/master/0547-number-of-provinces) |
 | [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 | [0721-accounts-merge](https://github.com/Thinh2Win/LeetCodes/tree/master/0721-accounts-merge) |
