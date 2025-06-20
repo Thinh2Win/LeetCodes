@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Thinh2Win/LeetCodes/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Dynamic Programming
 |  |
@@ -236,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Thinh2Win/LeetCodes/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Thinh2Win/LeetCodes/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Sorting
 |  |
@@ -268,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/Thinh2Win/LeetCodes/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Thinh2Win/LeetCodes/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Two Pointers
 |  |
 | ------- |
@@ -496,6 +499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3201-distribute-candies-among-children-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3201-distribute-candies-among-children-ii) |
 | [3216-distribute-candies-among-children-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/3216-distribute-candies-among-children-iii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Thinh2Win/LeetCodes/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Binary Search Tree
 |  |
 | ------- |
