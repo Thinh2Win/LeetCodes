@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/Thinh2Win/LeetCodes/tree/master/0561-array-partition) |
+| [0594-longest-harmonious-subsequence](https://github.com/Thinh2Win/LeetCodes/tree/master/0594-longest-harmonious-subsequence) |
 | [0721-accounts-merge](https://github.com/Thinh2Win/LeetCodes/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/Thinh2Win/LeetCodes/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Thinh2Win/LeetCodes/tree/master/0735-asteroid-collision) |
@@ -205,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0359-logger-rate-limiter](https://github.com/Thinh2Win/LeetCodes/tree/master/0359-logger-rate-limiter) |
 | [0496-next-greater-element-i](https://github.com/Thinh2Win/LeetCodes/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0560-subarray-sum-equals-k) |
+| [0594-longest-harmonious-subsequence](https://github.com/Thinh2Win/LeetCodes/tree/master/0594-longest-harmonious-subsequence) |
 | [0694-number-of-distinct-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/0694-number-of-distinct-islands) |
 | [0721-accounts-merge](https://github.com/Thinh2Win/LeetCodes/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
@@ -251,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/Thinh2Win/LeetCodes/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Thinh2Win/LeetCodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0561-array-partition](https://github.com/Thinh2Win/LeetCodes/tree/master/0561-array-partition) |
+| [0594-longest-harmonious-subsequence](https://github.com/Thinh2Win/LeetCodes/tree/master/0594-longest-harmonious-subsequence) |
 | [0721-accounts-merge](https://github.com/Thinh2Win/LeetCodes/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/Thinh2Win/LeetCodes/tree/master/1108-analyze-user-website-visit-pattern) |
@@ -265,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Thinh2Win/LeetCodes/tree/master/0594-longest-harmonious-subsequence) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
@@ -543,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Thinh2Win/LeetCodes/tree/master/0594-longest-harmonious-subsequence) |
 | [0940-fruit-into-baskets](https://github.com/Thinh2Win/LeetCodes/tree/master/0940-fruit-into-baskets) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
