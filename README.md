@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/Thinh2Win/LeetCodes/tree/master/3194-find-words-containing-character) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3617-find-the-original-typed-string-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3617-find-the-original-typed-string-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
