@@ -312,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2428-equal-row-and-column-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/Thinh2Win/LeetCodes/tree/master/2470-removing-stars-from-a-string) |
 | [2551-apply-operations-to-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/2551-apply-operations-to-an-array) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Matrix
 |  |
 | ------- |
@@ -510,6 +511,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Thinh2Win/LeetCodes/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/3201-distribute-candies-among-children-ii) |
 | [3216-distribute-candies-among-children-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/3216-distribute-candies-among-children-iii) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Thinh2Win/LeetCodes/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Binary Search Tree
@@ -698,6 +700,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Thinh2Win/LeetCodes/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Enumeration
 |  |
 | ------- |
@@ -717,6 +720,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/Thinh2Win/LeetCodes/tree/master/0050-powx-n) |
 | [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 | [2050-count-good-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/2050-count-good-numbers) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Number Theory
 |  |
 | ------- |
