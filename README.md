@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1078-remove-outermost-parentheses](https://github.com/Thinh2Win/LeetCodes/tree/master/1078-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Thinh2Win/LeetCodes/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1170-shortest-common-supersequence](https://github.com/Thinh2Win/LeetCodes/tree/master/1170-shortest-common-supersequence) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/Thinh2Win/LeetCodes/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Thinh2Win/LeetCodes/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
