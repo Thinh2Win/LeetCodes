@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1706-min-cost-to-connect-all-points](https://github.com/Thinh2Win/LeetCodes/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/Thinh2Win/LeetCodes/tree/master/1762-furthest-building-you-can-reach) |
+| [1813-maximum-erasure-value](https://github.com/Thinh2Win/LeetCodes/tree/master/1813-maximum-erasure-value) |
 | [1833-find-the-highest-altitude](https://github.com/Thinh2Win/LeetCodes/tree/master/1833-find-the-highest-altitude) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Thinh2Win/LeetCodes/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Thinh2Win/LeetCodes/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -232,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1510-find-lucky-integer-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1813-maximum-erasure-value](https://github.com/Thinh2Win/LeetCodes/tree/master/1813-maximum-erasure-value) |
 | [1905-design-authentication-manager](https://github.com/Thinh2Win/LeetCodes/tree/master/1905-design-authentication-manager) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Thinh2Win/LeetCodes/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Thinh2Win/LeetCodes/tree/master/2215-finding-3-digit-even-numbers) |
@@ -580,6 +582,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1138-grumpy-bookstore-owner](https://github.com/Thinh2Win/LeetCodes/tree/master/1138-grumpy-bookstore-owner) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Thinh2Win/LeetCodes/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1813-maximum-erasure-value](https://github.com/Thinh2Win/LeetCodes/tree/master/1813-maximum-erasure-value) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Thinh2Win/LeetCodes/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Thinh2Win/LeetCodes/tree/master/2626-count-the-number-of-good-subarrays) |
