@@ -302,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0016-3sum-closest](https://github.com/Thinh2Win/LeetCodes/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Thinh2Win/LeetCodes/tree/master/0018-4sum) |
 | [0141-linked-list-cycle](https://github.com/Thinh2Win/LeetCodes/tree/master/0141-linked-list-cycle) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Thinh2Win/LeetCodes/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0680-valid-palindrome-ii) |
@@ -353,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0402-remove-k-digits](https://github.com/Thinh2Win/LeetCodes/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Thinh2Win/LeetCodes/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0503-next-greater-element-ii) |
@@ -412,6 +414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0333-largest-bst-subtree](https://github.com/Thinh2Win/LeetCodes/tree/master/0333-largest-bst-subtree) |
 | [0337-house-robber-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/0337-house-robber-iii) |
 | [0663-equal-tree-partition](https://github.com/Thinh2Win/LeetCodes/tree/master/0663-equal-tree-partition) |
@@ -432,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0210-course-schedule-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0261-graph-valid-tree) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Thinh2Win/LeetCodes/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0333-largest-bst-subtree](https://github.com/Thinh2Win/LeetCodes/tree/master/0333-largest-bst-subtree) |
@@ -503,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0333-largest-bst-subtree](https://github.com/Thinh2Win/LeetCodes/tree/master/0333-largest-bst-subtree) |
 | [0337-house-robber-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/0337-house-robber-iii) |
 | [0663-equal-tree-partition](https://github.com/Thinh2Win/LeetCodes/tree/master/0663-equal-tree-partition) |
@@ -543,6 +548,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0333-largest-bst-subtree](https://github.com/Thinh2Win/LeetCodes/tree/master/0333-largest-bst-subtree) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0540-single-element-in-a-sorted-array) |
@@ -596,6 +602,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0215-kth-largest-element-in-an-array) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Thinh2Win/LeetCodes/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0505-the-maze-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0505-the-maze-ii) |
