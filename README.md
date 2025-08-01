@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/Thinh2Win/LeetCodes/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Thinh2Win/LeetCodes/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/Thinh2Win/LeetCodes/tree/master/0072-edit-distance) |
+| [0118-pascals-triangle](https://github.com/Thinh2Win/LeetCodes/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0119-pascals-triangle-ii) |
 | [0198-house-robber](https://github.com/Thinh2Win/LeetCodes/tree/master/0198-house-robber) |
 | [0333-largest-bst-subtree](https://github.com/Thinh2Win/LeetCodes/tree/master/0333-largest-bst-subtree) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Thinh2Win/LeetCodes/tree/master/0053-maximum-subarray) |
 | [0068-text-justification](https://github.com/Thinh2Win/LeetCodes/tree/master/0068-text-justification) |
+| [0118-pascals-triangle](https://github.com/Thinh2Win/LeetCodes/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0119-pascals-triangle-ii) |
 | [0135-candy](https://github.com/Thinh2Win/LeetCodes/tree/master/0135-candy) |
 | [0198-house-robber](https://github.com/Thinh2Win/LeetCodes/tree/master/0198-house-robber) |
