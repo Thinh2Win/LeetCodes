@@ -2,23 +2,19 @@
  * @param {number} numRows
  * @return {number[][]}
  */
-const rows = {
-    1: [1],
-}
 var generate = function(numRows) {
-    if (numRows === 1) return [[1]];
-    let container = [[1]]
-    let i = 2;
-    while (i <= numRows) {
-        let prev = rows[i - 1];
-        let curr = [1];
-        for (let j = 0; j < prev.length - 1; j++) {
-            curr.push(prev[j] + prev[j + 1]);
+    const rows = [[1]];
+    for (let i = 1; i < numRows; i++) {
+        let container = [];
+        for (let j = 0; j < rows.at(-1).length; j++) {
+            if (j === 0) {
+                container.push(rows.at(-1)[0])
+                continue
+            }
+            container.push(rows.at(-1)[j] + rows.at(-1)[j - 1]);
         }
-        curr.push(1);
-        rows[i] = curr;
-        container.push(curr);
-        i += 1;
+        container.push(rows.at(-1).at(-1));
+        rows.push(container)
     }
-    return container;
+    return rows;
 };
