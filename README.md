@@ -533,6 +533,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/Thinh2Win/LeetCodes/tree/master/0062-unique-paths) |
 | [0486-predict-the-winner](https://github.com/Thinh2Win/LeetCodes/tree/master/0486-predict-the-winner) |
 | [0797-rabbits-in-forest](https://github.com/Thinh2Win/LeetCodes/tree/master/0797-rabbits-in-forest) |
+| [1069-confusing-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1069-confusing-number) |
 | [1236-n-th-tribonacci-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1236-n-th-tribonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Thinh2Win/LeetCodes/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Thinh2Win/LeetCodes/tree/master/1421-find-numbers-with-even-number-of-digits) |
