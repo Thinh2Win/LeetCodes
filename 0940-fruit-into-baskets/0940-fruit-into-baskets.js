@@ -4,32 +4,24 @@
  */
 var totalFruit = function(fruits) {
     /*
-        sliding window 
-        starting from idx 0 
-        keep track of how many types of fruit we have 
-        if we reach 3 different types we shrink window until we only have 2 
-        record longest window length 
+        Sliding window
+        - keep track of fruit types in window
+        - if we reach more than 3 fruit types we shrink the window 
+        - keep track of max window length
     */
 
-    let answer = 0;
+    let maxFruit = 0;
     let L = 0;
-    let types = 0;
-    const freq = {};
-
+    let types = new Map();
+    
     for (let R = 0; R < fruits.length; R++) {
-        let fruit = fruits[R];
-        if (!freq[fruit]) {
-            freq[fruit] = 1;
-            types += 1;
-        } else {
-            freq[fruit] += 1;
-        }
-        while (types > 2) {
-            freq[fruits[L]] -= 1;
-            if (freq[fruits[L]] === 0) types -= 1;
+        types.set(fruits[R], (types.get(fruits[R]) || 0) + 1);
+        while (types.size > 2) {
+            types.set(fruits[L], types.get(fruits[L]) - 1);
+            if (types.get(fruits[L]) === 0) types.delete(fruits[L]);
             L += 1;
         }
-        answer = Math.max(answer, R - L + 1);
+        maxFruit = Math.max(maxFruit, R - L + 1);
     }
-    return answer;
+    return maxFruit;
 };
