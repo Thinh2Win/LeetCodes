@@ -195,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Thinh2Win/LeetCodes/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Thinh2Win/LeetCodes/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
+| [3791-fruits-into-baskets-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/3791-fruits-into-baskets-iii) |
 | [3825-apply-substitutions](https://github.com/Thinh2Win/LeetCodes/tree/master/3825-apply-substitutions) |
 ## Prefix Sum
 |  |
@@ -568,6 +569,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [2165-plates-between-candles](https://github.com/Thinh2Win/LeetCodes/tree/master/2165-plates-between-candles) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Thinh2Win/LeetCodes/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [3791-fruits-into-baskets-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/3791-fruits-into-baskets-iii) |
 ## Graph
 |  |
 | ------- |
@@ -712,6 +714,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Thinh2Win/LeetCodes/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Thinh2Win/LeetCodes/tree/master/2413-smallest-number-in-infinite-set) |
+| [3791-fruits-into-baskets-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/3791-fruits-into-baskets-iii) |
 ## Backtracking
 |  |
 | ------- |
@@ -797,4 +800,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/Thinh2Win/LeetCodes/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Thinh2Win/LeetCodes/tree/master/1706-min-cost-to-connect-all-points) |
+## Segment Tree
+|  |
+| ------- |
+| [3791-fruits-into-baskets-iii](https://github.com/Thinh2Win/LeetCodes/tree/master/3791-fruits-into-baskets-iii) |
 <!---LeetCode Topics End-->
