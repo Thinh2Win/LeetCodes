@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/Thinh2Win/LeetCodes/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/Thinh2Win/LeetCodes/tree/master/0311-sparse-matrix-multiplication) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/Thinh2Win/LeetCodes/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0346-moving-average-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/Thinh2Win/LeetCodes/tree/master/0353-design-snake-game) |
 | [0361-bomb-enemy](https://github.com/Thinh2Win/LeetCodes/tree/master/0361-bomb-enemy) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Thinh2Win/LeetCodes/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -382,6 +383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/Thinh2Win/LeetCodes/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
+| [0346-moving-average-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/Thinh2Win/LeetCodes/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/Thinh2Win/LeetCodes/tree/master/0359-logger-rate-limiter) |
 | [0937-online-stock-span](https://github.com/Thinh2Win/LeetCodes/tree/master/0937-online-stock-span) |
@@ -393,6 +395,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0346-moving-average-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/Thinh2Win/LeetCodes/tree/master/0353-design-snake-game) |
 | [0969-number-of-recent-calls](https://github.com/Thinh2Win/LeetCodes/tree/master/0969-number-of-recent-calls) |
 | [1366-first-unique-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1366-first-unique-number) |
@@ -401,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0295-find-median-from-data-stream) |
+| [0346-moving-average-from-data-stream](https://github.com/Thinh2Win/LeetCodes/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/Thinh2Win/LeetCodes/tree/master/0359-logger-rate-limiter) |
 | [0937-online-stock-span](https://github.com/Thinh2Win/LeetCodes/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/Thinh2Win/LeetCodes/tree/master/0969-number-of-recent-calls) |
