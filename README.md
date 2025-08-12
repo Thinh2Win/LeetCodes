@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1236-n-th-tribonacci-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1236-n-th-tribonacci-number) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [2262-solving-questions-with-brainpower](https://github.com/Thinh2Win/LeetCodes/tree/master/2262-solving-questions-with-brainpower) |
+| [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Thinh2Win/LeetCodes/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Thinh2Win/LeetCodes/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/Thinh2Win/LeetCodes/tree/master/3751-maximum-frequency-after-subarray-operation) |
