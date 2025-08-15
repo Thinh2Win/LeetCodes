@@ -131,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/Thinh2Win/LeetCodes/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/Thinh2Win/LeetCodes/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1138-grumpy-bookstore-owner](https://github.com/Thinh2Win/LeetCodes/tree/master/1138-grumpy-bookstore-owner) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/Thinh2Win/LeetCodes/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/Thinh2Win/LeetCodes/tree/master/1293-three-consecutive-odds) |
@@ -233,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0940-fruit-into-baskets](https://github.com/Thinh2Win/LeetCodes/tree/master/0940-fruit-into-baskets) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/Thinh2Win/LeetCodes/tree/master/1108-analyze-user-website-visit-pattern) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/Thinh2Win/LeetCodes/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1176-design-a-leaderboard](https://github.com/Thinh2Win/LeetCodes/tree/master/1176-design-a-leaderboard) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1319-unique-number-of-occurrences](https://github.com/Thinh2Win/LeetCodes/tree/master/1319-unique-number-of-occurrences) |
@@ -296,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Thinh2Win/LeetCodes/tree/master/0594-longest-harmonious-subsequence) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/Thinh2Win/LeetCodes/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Thinh2Win/LeetCodes/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Thinh2Win/LeetCodes/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Thinh2Win/LeetCodes/tree/master/1777-determine-if-two-strings-are-close) |
@@ -353,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-shortest-bridge](https://github.com/Thinh2Win/LeetCodes/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/Thinh2Win/LeetCodes/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Thinh2Win/LeetCodes/tree/master/1073-number-of-enclaves) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/Thinh2Win/LeetCodes/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Thinh2Win/LeetCodes/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1380-number-of-closed-islands](https://github.com/Thinh2Win/LeetCodes/tree/master/1380-number-of-closed-islands) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
@@ -570,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0333-largest-bst-subtree](https://github.com/Thinh2Win/LeetCodes/tree/master/0333-largest-bst-subtree) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Thinh2Win/LeetCodes/tree/master/0540-single-element-in-a-sorted-array) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Thinh2Win/LeetCodes/tree/master/0783-search-in-a-binary-search-tree) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/Thinh2Win/LeetCodes/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1397-search-suggestions-system](https://github.com/Thinh2Win/LeetCodes/tree/master/1397-search-suggestions-system) |
 | [1753-path-with-minimum-effort](https://github.com/Thinh2Win/LeetCodes/tree/master/1753-path-with-minimum-effort) |
 | [2165-plates-between-candles](https://github.com/Thinh2Win/LeetCodes/tree/master/2165-plates-between-candles) |
