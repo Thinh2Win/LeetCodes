@@ -549,6 +549,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1236-n-th-tribonacci-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1236-n-th-tribonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Thinh2Win/LeetCodes/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Thinh2Win/LeetCodes/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1448-maximum-69-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1448-maximum-69-number) |
 | [1500-count-largest-group](https://github.com/Thinh2Win/LeetCodes/tree/master/1500-count-largest-group) |
 | [1585-the-kth-factor-of-n](https://github.com/Thinh2Win/LeetCodes/tree/master/1585-the-kth-factor-of-n) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Thinh2Win/LeetCodes/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
@@ -660,6 +661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0680-valid-palindrome-ii](https://github.com/Thinh2Win/LeetCodes/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/Thinh2Win/LeetCodes/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Thinh2Win/LeetCodes/tree/master/0797-rabbits-in-forest) |
+| [1448-maximum-69-number](https://github.com/Thinh2Win/LeetCodes/tree/master/1448-maximum-69-number) |
 | [1762-furthest-building-you-can-reach](https://github.com/Thinh2Win/LeetCodes/tree/master/1762-furthest-building-you-can-reach) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Thinh2Win/LeetCodes/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Thinh2Win/LeetCodes/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
